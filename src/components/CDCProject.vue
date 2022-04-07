@@ -329,7 +329,7 @@
 <script>
 import axios from 'axios'
 export default {
-  name: 'DevPortal',
+  name: 'CDCProject',
 
   data: () => ({
 
@@ -355,7 +355,7 @@ export default {
       // );
       // get request
       const Response= await axios.get(
-        `http://localhost:1337/api/articles/1/`
+        `http://localhost:1337/api/articles/3/`
       );
       console.log(Response.data.data);
       this.project = Response.data.data.attributes;

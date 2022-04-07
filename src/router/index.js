@@ -2,7 +2,8 @@ import { createWebHistory, createRouter } from "vue-router";
 import HelloWorld from "../components/HelloWorld.vue";
 import Functionize from "../components/Functionize.vue";
 import DevPortal from "../components/DevPortal.vue";
-
+import SystemOutages from "../components/SystemOutages.vue";
+import CDCProject from "../components/CDCProject.vue";
 
 const routes = [
   {
@@ -19,6 +20,16 @@ const routes = [
     path: "/elavon",
     name: "DevPortal",
     component: DevPortal,
+  },
+  {
+    path: "/status",
+    name: "SystemOutages",
+    component: SystemOutages,
+  },
+  {
+    path: "/cdcproject",
+    name: "CDCProject",
+    component: CDCProject,
   },
 ];
 
