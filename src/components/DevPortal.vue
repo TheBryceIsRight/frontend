@@ -290,7 +290,7 @@
         <br/>
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" 
                 width="100%" 
-                height="450"
+                height="900"
                 title="Figma prototype" 
                 src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOT5w89thotQdKVT5D02guR%2FPortfolio%3Fkind%3D%26node-id%3D33%253A2050%26page-id%3D33%253A2049%26scaling%3Dscale-down%26viewport%3D1133%252C1457%252C0.475723534822464" 
                 allowfullscreen>
