@@ -1,5 +1,6 @@
 <template>
   <v-container>
+    <v-container>
     <v-row class="text-center">
       
       <!-- Introduction -->
@@ -256,7 +257,7 @@
         </h3>
       </v-col>
     </v-row>
-    
+    </v-container>
   </v-container>
 </template>
 
