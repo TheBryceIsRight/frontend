@@ -193,6 +193,20 @@
         </h1>
         <br/>
         <br/>
+        <v-carousel
+          height="600"
+          hide-delimiter-background
+          show-arrows-on-hover
+          cycle
+        >
+          <v-carousel-item
+            v-for="(item,i) in items"
+            :key="i"
+            :src="item.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
         <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Information Architecture
@@ -299,6 +313,20 @@ export default {
     project: [],
     images: [],
     error: null,
+    items: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
 
   }),
   async mounted () {
@@ -318,10 +346,24 @@ export default {
       // );
       // get request
       const Response= await axios.get(
-        `http://localhost:1337/api/articles/2/`
+        `http://localhost:1337/api/articles/2?populate=*`
       );
       console.log(Response.data.data);
       this.project = Response.data.data.attributes;
+      this.items = [
+      {
+        src: this.project.Persona.Persona1URL,
+      },
+      {
+        src: this.project.Persona.Persona2URL,
+      },
+      {
+        src: this.project.Persona.Persona3URL,
+      },
+      {
+        src: this.project.Persona.Persona4URL,
+      },
+    ]
 
     } catch (error) {
       this.error = error;

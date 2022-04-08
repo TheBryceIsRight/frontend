@@ -192,6 +192,20 @@
         <h1 class="display-1 font-weight-light mb-3 text-left">Personas
         </h1>
         <br/>
+        <v-carousel
+          height="600"
+          hide-delimiter-background
+          show-arrows-on-hover
+          cycle
+        >
+          <v-carousel-item
+            v-for="(item,i) in items"
+            :key="i"
+            :src="item.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
         <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">User Journey
@@ -275,14 +289,73 @@
         <h1 class="display-1 font-weight-light mb-3 text-left">Refined Wireframes
         </h1>
         <br/>
+        <v-carousel
+          height="600"
+          hide-delimiter-background
+          cycle
+        >     
+          <v-carousel-item
+            v-for="(lofi,i) in lofi"
+            :key="i"
+            :src="lofi.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">High Fidelity Designs
         </h1>
+        <br/>
+        <v-carousel
+          height="600"
+          hide-delimiter-background
+          show-arrows-on-hover
+          cycle
+        >
+          <v-carousel-item
+            v-for="(hifi,i) in hifi"
+            :key="i"
+            :src="hifi.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Animations
         </h1>
         <br/>
+        <v-carousel
+          height="600"
+          hide-delimiter-background
+          show-arrows-on-hover
+          cycle
+        >
+          <v-carousel-item
+            v-for="(animation,i) in animations"
+            :key="i"
+            :src="animation.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Dark Mode
         </h1>
+        <br/>
+        <v-carousel
+          height="600"
+          hide-delimiter-background
+          show-arrows-on-hover
+          cycle
+        >
+          <v-carousel-item
+            v-for="(dark,i) in dark"
+            :key="i"
+            :src="dark.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Device Mockups
         </h1>
@@ -336,6 +409,115 @@ export default {
     project: [],
     images: [],
     error: null,
+    items: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
+    lofi: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
+    hifi: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
+    animations: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
+    dark: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
 
   }),
   async mounted () {
@@ -355,10 +537,119 @@ export default {
       // );
       // get request
       const Response= await axios.get(
-        `http://localhost:1337/api/articles/1/`
+        `http://localhost:1337/api/articles/1?populate=*`
       );
+      console.log("Response Data")
       console.log(Response.data.data);
       this.project = Response.data.data.attributes;
+      console.log("Personas")
+      console.log(Response.data.data.attributes.Persona);
+      this.items = [
+      {
+        src: this.project.Persona.Persona1URL,
+      },
+      {
+        src: this.project.Persona.Persona2URL,
+      },
+      {
+        src: this.project.Persona.Persona3URL,
+      },
+      {
+        src: this.project.Persona.Persona4URL,
+      },
+    ];
+    this.hifi = [
+      {
+        src: this.project.HighFi.hifi01URL,
+      },
+      {
+        src: this.project.HighFi.hifi02URL,
+      },
+      {
+        src: this.project.HighFi.hifi03URL,
+      },
+      {
+        src: this.project.HighFi.hifi04URL,
+      },
+      {
+        src: this.project.HighFi.hifi05URL,
+      },
+      {
+        src: this.project.HighFi.hifi06URL,
+      },
+      {
+        src: this.project.HighFi.hifi07URL,
+      },
+      {
+        src: this.project.HighFi.hifi08URL,
+      },
+      {
+        src: this.project.HighFi.hifi09URL,
+      },
+    ];
+    this.lofi = [
+      {
+        src: this.project.LowFi.lowfi01URL,
+      },
+      {
+        src: this.project.LowFi.lowfi02URL,
+      },
+      {
+        src: this.project.LowFi.lowfi03URL,
+      },
+      {
+        src: this.project.LowFi.lowfi04URL,
+      },
+      {
+        src: this.project.LowFi.lowfi05URL,
+      },
+      {
+        src: this.project.LowFi.lowfi06URL,
+      },
+      {
+        src: this.project.LowFi.lowfi07URL,
+      },
+      {
+        src: this.project.LowFi.lowfi08URL,
+      },
+      {
+        src: this.project.LowFi.lowfi09URL,
+      },
+    ];
+    this.animations = [
+      {
+        src: this.project.Animation.URL1,
+      },
+      {
+        src: this.project.Animation.URL2,
+      },
+    ];
+    this.dark = [
+      {
+        src: this.project.Dark.URL1,
+      },
+      {
+        src: this.project.Dark.URL2,
+      },
+      {
+        src: this.project.Dark.URL3,
+      },
+      {
+        src: this.project.Dark.URL4,
+      },
+      {
+        src: this.project.Dark.URL5,
+      },
+      {
+        src: this.project.Dark.URL6,
+      },
+      {
+        src: this.project.Dark.URL7,
+      },
+      {
+        src: this.project.Dark.URL8,
+      }
+    ];
 
     } catch (error) {
       this.error = error;

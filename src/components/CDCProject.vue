@@ -334,7 +334,7 @@ export default {
       // );
       // get request
       const Response= await axios.get(
-        `http://localhost:1337/api/articles/3/`
+        `http://localhost:1337/api/articles/3`
       );
       console.log(Response.data.data);
       this.project = Response.data.data.attributes;
