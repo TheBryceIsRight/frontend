@@ -113,7 +113,44 @@
           <path d="M583.871 559.04H615.263C616.445 559.04 617.403 558.081 617.403 556.898C617.403 555.715 616.445 554.757 615.263 554.757H583.871C582.689 554.757 581.731 555.715 581.731 556.898C581.731 558.081 582.689 559.04 583.871 559.04Z" fill="#004D78"/>
           <path d="M347.909 622H100.849C100.625 621.999 100.409 621.909 100.25 621.75C100.092 621.591 100.002 621.375 100.002 621.15C100.002 620.925 100.092 620.709 100.25 620.55C100.409 620.39 100.625 620.3 100.849 620.3H347.909C348.134 620.3 348.35 620.39 348.508 620.55C348.667 620.709 348.756 620.925 348.756 621.15C348.756 621.375 348.667 621.591 348.508 621.75C348.35 621.909 348.134 621.999 347.909 622V622Z" fill="#CACACA"/>
           </svg>
-
+        <br/>
+        <br/>
+        <br/>
+        <h2 class="headline font-weight-light mb-5">
+          Made with ❤️ thanks to the Open Source Community
+        </h2>
+        <br/>
+        <br/>
+        <div class="text-center d-flex align-center justify-space-around">
+        <v-img
+                src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Strapi_bc60tt.svg"
+                class="white--text align-end"
+                cover
+                style="border-radius: 4px"
+                height="1%"
+              >
+        </v-img>
+        <br/>
+        <br/>
+        <v-img
+                src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Vuetify_i80bak.svg"
+                class="white--text align-end"
+                cover
+                style="border-radius: 4px"
+                height="1%"
+              >
+        </v-img>
+        <br/>
+        <br/>
+        <v-img
+                src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Vue_z52wp2.svg"
+                class="white--text align-end"
+                cover
+                style="border-radius: 4px"
+                height="1%"
+              >
+        </v-img>
+        </div>
       </v-col>
     </v-row>
     
