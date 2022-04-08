@@ -258,8 +258,40 @@
         <h1 class="display-1 font-weight-light mb-3 text-left">High Fidelity Designs
         </h1>
         <br/>
+        <v-carousel
+          height="600"
+          hide-delimiter-background
+          show-arrows-on-hover
+          cycle
+        >
+          <v-carousel-item
+            v-for="(hifi,i) in hifi"
+            :key="i"
+            :src="hifi.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Dark Mode
         </h1>
+        <br/>
+        <v-carousel
+          height="600"
+          hide-delimiter-background
+          show-arrows-on-hover
+          cycle
+        >
+          <v-carousel-item
+            v-for="(dark,i) in dark"
+            :key="i"
+            :src="dark.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
+        <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Device Mockups
         </h1>
@@ -327,6 +359,66 @@ export default {
         src: '',
       },
     ],
+    lofi: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
+    hifi: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
+    dark: [
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+      {
+        src: '',
+      },
+    ],
 
   }),
   async mounted () {
@@ -363,7 +455,73 @@ export default {
       {
         src: this.project.Persona.Persona4URL,
       },
-    ]
+    ];
+    this.hifi = [
+      {
+        src: this.project.HighFi.hifi01URL,
+      },
+      {
+        src: this.project.HighFi.hifi02URL,
+      },
+      {
+        src: this.project.HighFi.hifi03URL,
+      },
+      {
+        src: this.project.HighFi.hifi04URL,
+      },
+      {
+        src: this.project.HighFi.hifi05URL,
+      },
+      {
+        src: this.project.HighFi.hifi06URL,
+      },
+      {
+        src: this.project.HighFi.hifi07URL,
+      },
+    ];
+    this.lofi = [
+      {
+        src: this.project.LowFi.lowfi01URL,
+      },
+      {
+        src: this.project.LowFi.lowfi02URL,
+      },
+      {
+        src: this.project.LowFi.lowfi03URL,
+      },
+      {
+        src: this.project.LowFi.lowfi04URL,
+      },
+      {
+        src: this.project.LowFi.lowfi05URL,
+      },
+      {
+        src: this.project.LowFi.lowfi06URL,
+      },
+    ];
+    this.dark = [
+      {
+        src: this.project.Dark.URL1,
+      },
+      {
+        src: this.project.Dark.URL2,
+      },
+      {
+        src: this.project.Dark.URL3,
+      },
+      {
+        src: this.project.Dark.URL4,
+      },
+      {
+        src: this.project.Dark.URL5,
+      },
+      {
+        src: this.project.Dark.URL6,
+      },
+      {
+        src: this.project.Dark.URL7,
+      },
+    ];
 
     } catch (error) {
       this.error = error;
