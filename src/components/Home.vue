@@ -34,6 +34,7 @@
                 class="white--text align-end"
                 gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
                 height="400px"
+                alt="project.attributes.Image.data.attributes.alternativeText"
                 cover
               >
                 <v-card-title class="text-white d-flex justify-start font-weight-light text-left" v-text="project.attributes.Name"></v-card-title>
