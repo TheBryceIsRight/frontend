@@ -225,29 +225,6 @@
         <br/>
         <br/>
         <br/>
-        <br/>
-        <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Style Guide
-        </h1>
-        <v-img
-                :src= "project.StyleGuideLightURL"
-                class="white--text align-end"
-                style="border-radius: 4px"
-                cover
-              >
-        </v-img>
-        <br/>
-        <v-img
-                :src= "project.StyleGuideDarkURL"
-                class="white--text align-end"
-                style="border-radius: 4px"
-                cover
-              >
-        </v-img>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Refined Wireframes
         </h1>
         <br/>
@@ -260,8 +237,18 @@
               >
         </v-img>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">High Fidelity Designs
+        <h1 class="display-1 font-weight-light mb-3 text-left">High Fidelity Design
         </h1>
+        <br/>
+        <v-img
+                :src= "hifi"
+                class="white--text align-end"
+                style="border-radius: 4px"
+                width="100%"
+                cover
+              >
+        </v-img>
+        <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Device Mockups
         </h1>
@@ -315,6 +302,7 @@ export default {
     project: [],
     images: [],
     error: null,
+    hifi: "",
 
   }),
   async mounted () {
@@ -334,10 +322,12 @@ export default {
       // );
       // get request
       const Response= await axios.get(
-        `http://localhost:1337/api/articles/3`
+        `http://localhost:1337/api/articles/3?populate=*`
       );
       console.log(Response.data.data);
       this.project = Response.data.data.attributes;
+      this.hifi = this.project.HighFi.hifi01URL;
+
 
     } catch (error) {
       this.error = error;
