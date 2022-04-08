@@ -263,12 +263,6 @@
         <h1 class="display-1 font-weight-light mb-3 text-left">High Fidelity Designs
         </h1>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Animations
-        </h1>
-        <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Dark Mode
-        </h1>
-        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Device Mockups
         </h1>
         <br/>
