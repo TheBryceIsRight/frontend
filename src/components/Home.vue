@@ -219,8 +219,6 @@ export default {
       console.log(Response.data.data);
 
       this.projects = Response.data.data
-      const response = await axios.get('http://localhost:1337/api/blogs')
-      this.blogs = response.data.data
 
     } catch (error) {
       this.error = error;
