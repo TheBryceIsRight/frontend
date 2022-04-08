@@ -187,23 +187,7 @@
         <h3 class="display-1 font-weight-light mb-3 text-left">{{project.Goals3Description}}
         </h3>
         <br/>
-        <br/>
-        <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Personas
-        </h1>
-        <br/>
-        <br/>
-        <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">User Journey
-        </h1>
-        <br/>
-        <v-img
-                :src= "project.UserJourneyURL"
-                class="white--text align-end"
-                cover
-              >
-        </v-img>
-        <br/>
+
         <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Information Architecture
@@ -262,18 +246,19 @@
         </v-img>
         <br/>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">More Research
-        </h1>
-        <br/>
-        <p class="display-1 mb-3 text-left">{{project.Description3}}
-        </p>
-        <br/>
-        <p class="display-1 mb-3 text-left">{{project.Description4}}
-        </p>
         <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">Refined Wireframes
         </h1>
+        <br/>
+        <v-img
+                :src= "project.LowFiURL"
+                class="white--text align-end"
+                style="border-radius: 4px"
+                width="100%"
+                cover
+              >
+        </v-img>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left">High Fidelity Designs
         </h1>
