@@ -15,7 +15,7 @@
 
 
         <p class="subheading font-weight-regular">
-        Holy shit the router works!        
+        Pardon the mess, this page is under construction :)      
         </p>
       </v-col>
     </v-row>
