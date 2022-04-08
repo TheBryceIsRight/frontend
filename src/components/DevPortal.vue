@@ -539,11 +539,11 @@ export default {
       const Response= await axios.get(
         `http://localhost:1337/api/articles/1?populate=*`
       );
-      console.log("Response Data")
-      console.log(Response.data.data);
+      // console.log("Response Data")
+      // console.log(Response.data.data);
       this.project = Response.data.data.attributes;
-      console.log("Personas")
-      console.log(Response.data.data.attributes.Persona);
+      // console.log("Personas")
+      // console.log(Response.data.data.attributes.Persona);
       this.items = [
       {
         src: this.project.Persona.Persona1URL,

@@ -190,7 +190,7 @@ export default {
       const Response= await axios.get(
         `http://localhost:1337/api/projects/?${query}`
       );
-      console.log(Response.data.data);
+      // console.log(Response.data.data);
 
       this.projects = Response.data.data
 

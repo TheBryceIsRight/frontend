@@ -324,7 +324,7 @@ export default {
       const Response= await axios.get(
         `http://localhost:1337/api/articles/3?populate=*`
       );
-      console.log(Response.data.data);
+      // console.log(Response.data.data);
       this.project = Response.data.data.attributes;
       this.hifi = this.project.HighFi.hifi01URL;
 
