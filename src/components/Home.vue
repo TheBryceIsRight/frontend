@@ -191,8 +191,8 @@ export default {
         `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
       );
       // console.log(Response.data.data);
-      console.log("API Endpoint");
-      console.log(process.env.VUE_APP_API_ENDPOINT);
+      // console.log("API Endpoint");
+      // console.log(process.env.VUE_APP_API_ENDPOINT);
 
       this.projects = Response.data.data
 
