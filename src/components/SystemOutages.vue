@@ -438,7 +438,7 @@ export default {
       // );
       // get request
       const Response= await axios.get(
-        `http://localhost:1337/api/articles/2?populate=*`
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/2?populate=*`
       );
       // console.log(Response.data.data);
       this.project = Response.data.data.attributes;

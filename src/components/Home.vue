@@ -188,7 +188,7 @@ export default {
       );
       // get request
       const Response= await axios.get(
-        `http://localhost:1337/api/projects/?${query}`
+        `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
       );
       // console.log(Response.data.data);
       console.log("API Endpoint");
