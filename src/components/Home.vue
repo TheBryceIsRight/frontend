@@ -191,7 +191,8 @@ export default {
         `http://localhost:1337/api/projects/?${query}`
       );
       // console.log(Response.data.data);
-      console.log(process.env.VUE_APP_NOT_SECRET_CODE);
+      console.log("API Endpoint");
+      console.log(process.env.VUE_APP_API_ENDPOINT);
 
       this.projects = Response.data.data
 
