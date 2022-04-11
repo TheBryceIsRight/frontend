@@ -129,6 +129,7 @@
                 cover
                 style="border-radius: 4px"
                 height="1%"
+                max-width="450px"
               >
         </v-img>
         <br/>
@@ -139,6 +140,7 @@
                 cover
                 style="border-radius: 4px"
                 height="1%"
+                max-width="450px"
               >
         </v-img>
         <br/>
@@ -149,6 +151,7 @@
                 cover
                 style="border-radius: 4px"
                 height="1%"
+                max-width="450px"
               >
         </v-img>
         </div>
