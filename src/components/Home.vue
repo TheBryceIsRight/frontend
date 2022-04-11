@@ -3,12 +3,12 @@
     <v-row class="text-center">
       <!-- Introduction -->
       <v-col class="mb-4">
-        <h1 class="display-2 font-weight-light mb-3">
+        <h1 class="display-2 font-weight-light mb-3 text-xs-h4 text-md-h3 text-lg-h2">
           Hi there! I'm Bryce
         </h1>
 
 
-        <p class="subheading font-weight-regular">
+        <p class="subheading font-weight-regular text-xs-body-2 text-md-body-1 text-lg-h5">
           I'm a UX designer at Functionize and a graduate of the Computer Science program at Georgia Tech.
         </p>
       </v-col>
@@ -17,7 +17,7 @@
         class="mb-5"
         cols="12"
       >
-        <h2 class="headline font-weight-medium mb-5">
+        <h2 class="headline font-weight-medium mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           My projects
         </h2>
     <!-- Projects -->
@@ -54,11 +54,11 @@
         class="mb-5"
         cols="12"
       >
-        <h2 class="headline font-weight-light mb-5">
+        <h2 class="headline font-weight-light mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           About Me
         </h2>
         <v-spacer/>
-        <p>More information coming soon! :)</p>
+        <p class="text-xs-body-2 text-md-body-1 text-lg-h5">More information coming soon! :)</p>
         <!-- Another illustration -->
         <svg width="100%" height="722" viewBox="0 0 842 722" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M282.948 430.358C281.965 429.99 281.076 429.411 280.341 428.662C279.607 427.912 279.046 427.011 278.697 426.021C278.348 425.031 278.221 423.977 278.323 422.933C278.426 421.888 278.756 420.879 279.291 419.976L262.828 400.497L275.983 398.923L289.599 417.662C291.056 418.661 292.095 420.16 292.521 421.875C292.946 423.59 292.729 425.401 291.909 426.966C291.089 428.531 289.724 429.741 288.072 430.366C286.421 430.991 284.597 430.988 282.948 430.358V430.358Z" fill="#FFB6B6"/>
@@ -117,7 +117,7 @@
         <br/>
         <br/>
         <br/>
-        <h2 class="headline font-weight-light mb-5">
+        <h2 class="headline font-weight-light mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           Made with ❤️ thanks to the Open Source Community
         </h2>
         <br/>

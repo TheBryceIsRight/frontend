@@ -48,12 +48,14 @@
             </svg>
           </v-btn>
       </v-app-bar>
-    <v-main class="mx-4">
+    <v-main class="mx-4 px-5">
       <router-view />
+      
     </v-main>
   </v-defaults-provider>
   </usage-example>
   </v-app>
+  
 
 </template>
 
