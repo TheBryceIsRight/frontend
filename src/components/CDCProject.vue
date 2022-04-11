@@ -6,7 +6,7 @@
       <!-- Introduction -->
       <v-col class="mb-8"  >
         <br/>
-        <h1 class="display-1 font-weight-light mb-3">{{project.Title}}
+        <h1 class="display-1 font-weight-light mb-3 text-xs-h4 text-md-h3 text-lg-h2">{{project.Title}}
         </h1>
       </v-col>
     <v-col cols="12">
@@ -156,41 +156,41 @@
       </v-col>
             <v-col class="mb-8"  >
         <br/>
-        <h2 class="display-1 font-weight-light mb-3">{{project.IntroHeadline}}
+        <h2 class="display-1 font-weight-light mb-3 text-xs-h6 text-md-h5 text-lg-h4">{{project.IntroHeadline}}
         </h2>
         <br/>
-        <p class="display-1 mb-3">{{project.IntroDescription}}
+        <p class="display-1 mb-3 text-xs-body-2 text-md-body-1 text-lg-h5">{{project.IntroDescription}}
         </p>
         <br/>
         <br/>
         <br/>
         <br/>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Goals
+        <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Goals
         </h1>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left">{{project.Goals1Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals1Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left">{{project.Goals1Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left  text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
         </h3>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left">{{project.Goals2Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals2Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left">{{project.Goals2Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left  text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
         </h3>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left">{{project.Goals3Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals3Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left">{{project.Goals3Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left  text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
         </h3>
         <br/>
 
         <br/>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Information Architecture
+        <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Information Architecture
         </h1>
         <br/>
         <v-img
@@ -205,7 +205,7 @@
         <br/>
         <br/>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Baseline Research
+        <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Baseline Research
         </h1>
         <v-img
                 :src= "project.ResearchSlideURL"
@@ -216,16 +216,16 @@
         </v-img>
         <br/>
         <br/>
-        <p class="display-1 mb-3 text-left">{{project.Description}}
+        <p class="display-1 mb-3 text-left  text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Description}}
         </p>
         <br/>
         <br/>
-        <p class="display-1 mb-3 text-left">{{project.Description2}}
+        <p class="display-1 mb-3 text-left  text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Description2}}
         </p>
         <br/>
         <br/>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Refined Wireframes
+        <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Refined Wireframes
         </h1>
         <br/>
         <v-img
@@ -237,7 +237,7 @@
               >
         </v-img>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">High Fidelity Design
+        <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">High Fidelity Design
         </h1>
         <br/>
         <v-img
@@ -250,7 +250,7 @@
         </v-img>
         <br/>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Device Mockups
+        <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Device Mockups
         </h1>
         <br/>
         <br/>
@@ -263,29 +263,29 @@
         </iframe>
         <br/>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3 text-left">Takeaways
+        <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Takeaways
         </h1>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left">{{project.Takeaway1Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Takeaway1Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left">{{project.Takeaway1Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left  text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Takeaway1Description}}
         </h3>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left">{{project.Takeaway2Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Takeaway2Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left">{{project.Takeaway2Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left  text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Takeaway2Description}}
         </h3>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left">{{project.Takeaway3Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Takeaway3Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left">{{project.Takeaway3Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Takeaway3Description}}
         </h3>
         <br/>
         <br/>
-        <h1 class="display-1 font-weight-light mb-3">Thank you for reading!</h1>
+        <h1 class="display-1 font-weight-light mb-3 text-xs-h4 text-md-h3 text-lg-h2">Thank you for reading!</h1>
       </v-col>
     </v-row>
     </v-container>
