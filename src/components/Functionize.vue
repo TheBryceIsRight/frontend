@@ -123,7 +123,8 @@ import axios from 'axios'
 //   'Functionize Page Visited': true,
 // });
 export default {
-  name: 'HelloWorld',
+  name: 'FZE',
+  title: 'Functionize',
 
   data: () => ({
 

@@ -408,6 +408,7 @@ import axios from 'axios'
 // });
 export default {
   name: 'DevPortal',
+  title: 'Developer Portal',
 
   data: () => ({
 

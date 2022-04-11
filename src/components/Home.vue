@@ -3,6 +3,9 @@
     <v-row class="text-center">
       <!-- Introduction -->
       <v-col class="mb-4">
+        <br/>
+        <br/>
+        <br/>
         <h1 class="display-2 font-weight-light mb-3 text-xs-h3 text-md-h4 text-lg-h3">
           Hi there! I'm Bryce
         </h1>
@@ -167,6 +170,7 @@ import axios from 'axios'
 // mixpanel.track_links("#mixpanel-tracked", "Link clicked");
 export default {
   name: 'HelloWorld',
+  title: 'Portfolio',
 
   data: () => ({
 

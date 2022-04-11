@@ -301,6 +301,7 @@ import axios from 'axios'
 // });
 export default {
   name: 'CDCProject',
+  title: 'Air Toxicity Project',
 
   data: () => ({
 

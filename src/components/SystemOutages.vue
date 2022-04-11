@@ -344,6 +344,7 @@ import axios from 'axios'
 // });
 export default {
   name: 'SystemOutages',
+  title: 'System Outages',
 
   data: () => ({
 
