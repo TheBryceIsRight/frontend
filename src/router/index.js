@@ -4,6 +4,7 @@ import Functionize from "../components/Functionize.vue";
 import DevPortal from "../components/DevPortal.vue";
 import SystemOutages from "../components/SystemOutages.vue";
 import CDCProject from "../components/CDCProject.vue";
+import ContactMe from "../components/ContactMe.vue";
 
 const routes = [
   {
@@ -74,6 +75,25 @@ const routes = [
         {
           property: 'og:description',
           content: 'The system outages page of my portfolio.'
+        }
+      ]
+    },
+    
+  },
+  {
+    path: "/contact",
+    name: "ContactMe",
+    component: ContactMe,
+    meta: {
+      title: 'Contact Me',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The contact me page of my portfolio.'
+        },
+        {
+          property: 'og:description',
+          content: 'The contact me page of my portfolio.'
         }
       ]
     },
