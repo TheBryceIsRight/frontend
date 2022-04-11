@@ -22,7 +22,6 @@
         </template>
 
         <v-app-bar-title class="text-white font-weight-light">Bryce's Portfolio</v-app-bar-title>
-                
           <v-btn icon dark color='white' aria-label="Three dot menu">
             <v-menu activator="parent" >
             <v-list elevation="1" style="border-radius: 4px">
@@ -41,6 +40,14 @@
                     </svg>
                 </v-list-item-avatar>
                 <v-list-item-title>Contact</v-list-item-title>
+              </v-list-item>
+              <v-list-item href='https://docs.google.com/document/d/1TCrhwGzajWhGrd-bQxzjI-tcDvLy1tpXNn5qTyv886o/edit?usp=sharing'  target="_blank">
+              <v-list-item-avatar start >
+                              <svg width="39" height="29" viewBox="0 0 39 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M16 8H5C3.9 8 3 8.9 3 10V24C3 25.1 3.9 26 5 26H19C20.1 26 21 25.1 21 24V13L16 8ZM19 24H5V10H15V14H19V24ZM7 22H17V20H7V22ZM12 12H7V14H12V12ZM7 18H17V16H7V18Z" fill="#004D78"/>
+                              </svg>
+                </v-list-item-avatar>
+                <v-list-item-title>Resume</v-list-item-title>
               </v-list-item>
             </v-list>
           </v-menu>
