@@ -81,7 +81,7 @@
             required
             ></v-text-field>
 
-            <p class="display-1 mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-body-1">This page is under construction, so chrome autofill isn't working properly. Don't worry, I'm looking for a solution :)</p>
+            <p class="display-1 mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-body-1">This page is under construction, so chrome autofill isn't working properly. Don't worry, I'm working on a solution :)</p>
             <br/>
             <v-btn
             :disabled="!valid"
