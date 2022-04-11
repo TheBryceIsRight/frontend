@@ -14,9 +14,9 @@
         dark
       >
         <template v-slot:prepend>
-          <v-btn icon dark color='white' aria-label="Three line menu" to="/" >
+          <v-btn icon dark color='white' aria-label="Home button" to="/" >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="white"/>
+            <path d="M10 20.5V14.5H14V20.5H19V12.5H22L12 3.5L2 12.5H5V20.5H10Z" fill="white"/>
             </svg>
             </v-btn>
         </template>
@@ -48,7 +48,7 @@
             </svg>
           </v-btn>
       </v-app-bar>
-    <v-main>
+    <v-main class="mx-4">
       <router-view />
     </v-main>
   </v-defaults-provider>

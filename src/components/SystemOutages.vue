@@ -1,10 +1,10 @@
 <template>
   <v-container>
-    <v-container>
+    <v-container class="mx-4">
     <v-row class="text-center">
       
       <!-- Introduction -->
-      <v-col class="mb-8"  >
+      <v-col class="mb-8" >
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-xs-h4 text-md-h3 text-lg-h2">{{project.Title}}
         </h1>
@@ -214,7 +214,7 @@
         <br/>
         <v-img
                 :src= "project.SiteMapURL"
-                class="white--text align-end"
+                class="white--text align-end mx-4"
                 style="border-radius: 4px"
                 cover
               >
@@ -229,7 +229,7 @@
         <v-img
                 :src= "project.StyleGuideLightURL"
                 class="white--text align-end"
-                style="border-radius: 4px"
+                style="border-radius: 4px; width: 75%"
                 cover
               >
         </v-img>
