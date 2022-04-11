@@ -27,9 +27,19 @@
             <v-menu activator="parent" >
             <v-list elevation="1" style="border-radius: 4px">
               <v-list-item>
+                <v-list-item-avatar start>
+                    <svg width="39" height="29" viewBox="0 0 39 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 17C14.21 17 16 15.21 16 13C16 10.79 14.21 9 12 9C9.79 9 8 10.79 8 13C8 15.21 9.79 17 12 17ZM12 19C9.33 19 4 20.34 4 23V25H20V23C20 20.34 14.67 19 12 19Z" fill="#004D78"/>
+                    </svg>
+                </v-list-item-avatar>
                 <v-list-item-title>About Me</v-list-item-title>
               </v-list-item>
               <v-list-item to="/contact">
+              <v-list-item-avatar start>
+                    <svg width="39" height="29" viewBox="0 0 39 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 9H4C2.9 9 2.01 9.9 2.01 11L2 23C2 24.1 2.9 25 4 25H20C21.1 25 22 24.1 22 23V11C22 9.9 21.1 9 20 9ZM20 13L12 18L4 13V11L12 16L20 11V13Z" fill="#004D78"/>
+                    </svg>
+                </v-list-item-avatar>
                 <v-list-item-title>Contact</v-list-item-title>
               </v-list-item>
             </v-list>
