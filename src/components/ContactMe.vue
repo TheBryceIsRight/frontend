@@ -180,7 +180,7 @@ export default {
       async sendMessage() {
         //   console.log("Sending POST call");
           try {
-            await axios.post(`http://localhost:1337/api/messages`, {
+            await axios.post(`${process.env.VUE_APP_API_ENDPOINT}api/messages`, {
               data: {
                 Name: this.name,
                 Email: this.email,
