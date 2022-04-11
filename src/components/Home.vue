@@ -28,7 +28,7 @@
           :cols="project.attributes.flex"
         > 
           <router-link :to="project.attributes.route" style="text-decoration: none; color: inherit;">
-            <v-card v-ripple >
+            <v-card v-ripple id="mixpanel-tracked">
               <v-img
                 :src= "project.attributes.Image.data.attributes.caption"
                 class="white--text align-end"
@@ -160,11 +160,8 @@
 
 <script>
 import axios from 'axios'
-import mixpanel from 'mixpanel-browser';
-mixpanel.track('Home', {
-  'source': "Bryce's portfolio",
-  'Home Page Visited': true,
-});
+// import mixpanel from 'mixpanel-browser';
+// mixpanel.track_links("#mixpanel-tracked", "Link clicked");
 export default {
   name: 'HelloWorld',
 

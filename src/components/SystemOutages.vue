@@ -337,11 +337,11 @@
 
 <script>
 import axios from 'axios'
-import mixpanel from 'mixpanel-browser';
-mixpanel.track('System Outages', {
-  'source': "System Outages page",
-  'System Outages Page Visited': true,
-});
+// import mixpanel from 'mixpanel-browser';
+// mixpanel.track('System Outages', {
+//   'source': "System Outages page",
+//   'System Outages Page Visited': true,
+// });
 export default {
   name: 'SystemOutages',
 

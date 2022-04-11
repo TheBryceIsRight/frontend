@@ -117,11 +117,11 @@
 
 <script>
 import axios from 'axios'
-import mixpanel from 'mixpanel-browser';
-mixpanel.track('Functionize', {
-  'source': "Functionize page",
-  'Functionize Page Visited': true,
-});
+// import mixpanel from 'mixpanel-browser';
+// mixpanel.track('Functionize', {
+//   'source': "Functionize page",
+//   'Functionize Page Visited': true,
+// });
 export default {
   name: 'HelloWorld',
 

@@ -147,11 +147,11 @@
 
 <script>
 import axios from 'axios'
-import mixpanel from 'mixpanel-browser';
-mixpanel.track('Contact', {
-  'source': "Contact page",
-  'Contact Page Visited': true,
-});
+// import mixpanel from 'mixpanel-browser';
+// mixpanel.track('Contact', {
+//   'source': "Contact page",
+//   'Contact Page Visited': true,
+// });
 export default {
   name: 'HelloWorld',
 
