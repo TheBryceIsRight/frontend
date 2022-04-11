@@ -3,7 +3,7 @@
     <v-row class="text-center">
       <!-- Introduction -->
       <v-col class="mb-4">
-        <h1 class="display-2 font-weight-light mb-3 text-xs-h4 text-md-h3 text-lg-h2">
+        <h1 class="display-2 font-weight-light mb-3 text-xs-h3 text-md-h4 text-lg-h3">
           Hi there! I'm Bryce
         </h1>
 
