@@ -294,6 +294,11 @@
 
 <script>
 import axios from 'axios'
+import mixpanel from 'mixpanel-browser';
+mixpanel.track('Air Toxcity', {
+  'source': "Air Toxcity page",
+  'Air Toxcity Page Visited': true,
+});
 export default {
   name: 'CDCProject',
 

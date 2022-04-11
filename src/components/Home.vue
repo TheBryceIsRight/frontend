@@ -160,6 +160,11 @@
 
 <script>
 import axios from 'axios'
+import mixpanel from 'mixpanel-browser';
+mixpanel.track('Home', {
+  'source': "Bryce's portfolio",
+  'Home Page Visited': true,
+});
 export default {
   name: 'HelloWorld',
 

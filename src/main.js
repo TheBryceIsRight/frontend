@@ -6,6 +6,7 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import { aliases, mdi } from 'vuetify/lib/iconsets/mdi-svg'
 import router from './router/index'
+import mixpanel from 'mixpanel-browser';
 
 const app = createApp(App).use(router);
 
@@ -24,5 +25,6 @@ const vuetify = createVuetify(
 ); // Replaces new Vuetify(...)
 
 app.use(vuetify);
+app.use(mixpanel);
 
 app.mount('#app');

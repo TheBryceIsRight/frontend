@@ -401,6 +401,11 @@
 
 <script>
 import axios from 'axios'
+import mixpanel from 'mixpanel-browser';
+mixpanel.track('Dev Portal', {
+  'source': "Dev Portal page",
+  'Dev Portal Page Visited': true,
+});
 export default {
   name: 'DevPortal',
 
