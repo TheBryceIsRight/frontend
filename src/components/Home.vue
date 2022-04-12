@@ -203,7 +203,11 @@ export default {
       // console.log("API Endpoint");
       // console.log(process.env.VUE_APP_API_ENDPOINT);
 
-      this.projects = Response.data.data
+      this.projects = Response.data.data;
+      this.$store.commit('setProjects', this.projects);
+      // store.projects = Response.data.data;
+      console.log('Get Projects Test:\n');
+      console.log(this.$store.getters.getProjects);
 
     } catch (error) {
       this.error = error;

@@ -448,6 +448,10 @@ export default {
       );
       // console.log(Response.data.data);
       this.project = Response.data.data.attributes;
+      this.$store.commit('setOUTProjects', Response.data.data);
+      console.log('Get OUT Projects Test:\n');
+      console.log(this.$store.getters.getCDCProjects);
+      
       this.items = [
       {
         src: this.project.Persona.Persona1URL,

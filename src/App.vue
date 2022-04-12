@@ -99,6 +99,7 @@ export default {
     return {
       blogs: [],
       error: null,
+      projects: [],
       model: 'default',
       options: ['label', 'outlined'],
       items: [
@@ -106,6 +107,17 @@ export default {
         { title: 'Contact' }
       ],
     }
-  }
+  },
+  beforeMount(){
+    // get request
+    const Response= await axios.get(
+      `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
+    );
+    // console.log(Response.data.data);
+    // console.log("API Endpoint");
+    // console.log(process.env.VUE_APP_API_ENDPOINT);
+
+    this.projects = Response.data.data
+ },
 }
 </script>

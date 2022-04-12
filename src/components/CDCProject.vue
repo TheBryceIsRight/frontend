@@ -332,6 +332,9 @@ export default {
       );
       // console.log(Response.data.data);
       this.project = Response.data.data.attributes;
+      this.$store.commit('setCDCProjects', Response.data.data);
+      console.log('Get CDC Projects Test:\n');
+      console.log(this.$store.getters.getCDCProjects);
       this.hifi = this.project.HighFi.hifi01URL;
 
 

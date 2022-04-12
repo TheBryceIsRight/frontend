@@ -548,6 +548,9 @@ export default {
       // console.log("Response Data")
       // console.log(Response.data.data);
       this.project = Response.data.data.attributes;
+      this.$store.commit('setDEVProjects', this.projects);
+      console.log('Get DEV Projects Test:\n');
+      console.log(this.$store.getters.getDEVProjects);
       // console.log("Personas")
       // console.log(Response.data.data.attributes.Persona);
       this.items = [
