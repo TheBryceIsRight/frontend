@@ -124,43 +124,46 @@
         <h2 class="headline font-weight-light mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           Made with ❤️ thanks to the Open Source Community
         </h2>
-        <div class="text-center d-flex align-center justify-space-between">
+        <v-btn href="https://strapi.io/" elevation="0" target="_blank" style="width:25%; height: 200px;">
         <v-img
                 src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Strapi_bc60tt.svg"
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
-                width="25%"
+                width="100px"
               >
         </v-img>
+        </v-btn>
+        <v-btn href="https://next.vuetifyjs.com/en/" elevation="0" target="_blank" style="width:25%; height: 200px;">  
         <v-img
                 src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Vuetify_i80bak.svg"
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
-                width="25%"
+                width="100px"
               >
         </v-img>
-                </div>
-                      <div class="text-center d-flex align-center justify-space-between">
-
+         </v-btn>
+        <v-btn href="https://vuejs.org/" elevation="0" target="_blank" style="width:25%; height: 200px;" >                 
         <v-img
                 src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Vue_z52wp2.svg"
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
-                width="25%"
+                width="100px"
               >
         </v-img>
+        </v-btn> 
+        <v-btn href= "https://undraw.co/" elevation="0" target="_blank" style="width:25%; height: 200px;">
         <v-img
                 src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649801012/Undraw_kkfjtz.svg"
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
-                width="25%"
+                width="100px"
               >
         </v-img>
-                      </div>
+        </v-btn>
         
         <!-- <br/>
         <v-btn>
