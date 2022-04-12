@@ -1,5 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
-import HelloWorld from "../components/Home.vue";
+import Home from "../components/Home.vue";
 import Functionize from "../components/Functionize.vue";
 import DevPortal from "../components/DevPortal.vue";
 import SystemOutages from "../components/SystemOutages.vue";
@@ -10,7 +10,7 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: HelloWorld,
+    component: Home,
     meta: {
       title: 'Home Page',
       metaTags: [
@@ -117,6 +117,7 @@ const routes = [
       ]
     },
   },
+  // { path: "*", component: Home }
 ];
 
 

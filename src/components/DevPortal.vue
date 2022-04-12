@@ -527,7 +527,7 @@ export default {
   }),
   computed: {
     project: function() { return this.$store.getters.getDEVProjects },
-},
+  },
   mounted () {
     try {
       // get request
