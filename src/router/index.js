@@ -6,6 +6,7 @@ import SystemOutages from "../components/SystemOutages.vue";
 import CDCProject from "../components/CDCProject.vue";
 import ContactMe from "../components/ContactMe.vue";
 import NotFound from "../components/NotFound.vue";
+import AboutMe from "../components/AboutMe.vue";
 
 
 const routes = [
@@ -27,6 +28,24 @@ const routes = [
         {
           property: 'og:description',
           content: 'The home page of my portfolio.'
+        }
+      ]
+    }
+  },
+  {
+    path: "/aboutme",
+    name: "About Me",
+    component: AboutMe,
+    meta: {
+      title: 'About Me',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The about me page of my portfolio.'
+        },
+        {
+          property: 'og:description',
+          content: 'The about me page of my portfolio.'
         }
       ]
     }

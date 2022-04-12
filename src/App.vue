@@ -22,7 +22,7 @@
           <v-btn icon dark color='#004D78' aria-label="Three dot menu">
             <v-menu activator="parent" >
             <v-list elevation="1" style="border-radius: 4px">
-              <v-list-item>
+              <v-list-item to="/aboutme">
                 <v-list-item-avatar start>
                     <svg width="39" height="29" viewBox="0 0 39 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 17C14.21 17 16 15.21 16 13C16 10.79 14.21 9 12 9C9.79 9 8 10.79 8 13C8 15.21 9.79 17 12 17ZM12 19C9.33 19 4 20.34 4 23V25H20V23C20 20.34 14.67 19 12 19Z" fill="#004D78"/>
