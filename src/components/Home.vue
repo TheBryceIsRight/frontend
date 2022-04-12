@@ -12,10 +12,15 @@
           Hi there! I'm Bryce
         </h1>
 
+        <br/>
+        <br/> 
 
         <p class="subheading font-weight-regular text-xs-body-2 text-md-body-1 text-lg-h5">
-          I'm a UX designer at Functionize and a graduate of the Computer Science program at Georgia Tech.
+          I'm a UX designer at <b>Functionize</b> and a graduate of the Computer Science program at <b>Georgia Tech</b>.
         </p>
+
+        <br/>
+        <br/>
       </v-col>
 
       <v-col
@@ -25,6 +30,8 @@
         <h2 class="headline font-weight-medium mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           My projects
         </h2>
+        <br/>
+        <br/>
     <!-- Projects -->
     <v-container fluid>
       <v-row dense>
