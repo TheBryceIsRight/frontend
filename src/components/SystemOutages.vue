@@ -347,8 +347,6 @@ export default {
   title: 'System Outages',
 
   data: () => ({
-
-    project: [],
     images: [],
     error: null,
     items: [
@@ -427,6 +425,9 @@ export default {
     ],
 
   }),
+  computed: {
+    project: function() { return this.$store.getters.getOUTProjects },
+  },
   async mounted () {
     try {
       // const qs = require('qs');
@@ -447,7 +448,6 @@ export default {
       //   `${process.env.VUE_APP_API_ENDPOINT}api/articles/2?populate=*`
       // );
       // console.log(Response.data.data);
-      this.project = this.$store.getters.getOUTProjects;
       // this.$store.commit('setOUTProjects', Response.data.data);
       // console.log('Get OUT Projects Test:\n');
       // console.log(this.$store.getters.getCDCProjects);

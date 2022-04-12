@@ -112,18 +112,18 @@ export default {
   async mounted(){
     // get request
     const qs = require('qs');
-      const query = qs.stringify(
-        {
-          populate: {
-            Image: {
-              populate: '*'
-            }
+    const query = qs.stringify(
+      {
+        populate: {
+          Image: {
+            populate: '*'
           }
-        },
-        {
-          encodeValuesOnly: true
         }
-      );
+      },
+      {
+        encodeValuesOnly: true
+      }
+    );
     const Response1= await axios.get(
       `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
     );
@@ -138,6 +138,8 @@ export default {
       );
     
     this.$store.commit('setProjects', Response1.data.data);
+    // console.log("APP TEST");
+    // console.log(this.$store.getters.getProjects);
     this.$store.commit('setDEVProjects', Response2.data.data.attributes);
     this.$store.commit('setOUTProjects', Response3.data.data.attributes);
     this.$store.commit('setCDCProjects', Response4.data.data.attributes);
@@ -149,7 +151,7 @@ export default {
     // console.log("API Endpoint");
     // console.log(process.env.VUE_APP_API_ENDPOINT);
 
-    this.projects = Response1.data.data
+    // this.projects = Response1.data.data
  },
 }
 </script>

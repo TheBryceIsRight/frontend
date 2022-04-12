@@ -302,15 +302,16 @@
 export default {
   name: 'CDCProject',
   title: 'Air Toxicity Project',
-
   data: () => ({
 
-    project: [],
     images: [],
     error: null,
     hifi: "",
 
   }),
+  computed: {
+    project: function() { return this.$store.getters.getCDCProjects },
+  },
   async mounted () {
     try {
       // const qs = require('qs');
@@ -331,7 +332,7 @@ export default {
       //   `${process.env.VUE_APP_API_ENDPOINT}api/articles/3?populate=*`
       // );
       // console.log(Response.data.data);
-      this.project = this.$store.getters.getCDCProjects;
+      // this.project = this.$store.getters.getCDCProjects;
       // this.$store.commit('setCDCProjects', Response.data.data);
       // console.log('Get CDC Projects Test:\n');
       // console.log(this.$store.getters.getCDCProjects);

@@ -134,34 +134,34 @@ export default {
     error: null,
 
   }),
-  mounted () {
-    try {
-      // const qs = require('qs');
-      // const query = qs.stringify(
-      //   {
-      //     populate: {
-      //       Image: {
-      //         populate: '*'
-      //       }
-      //     }
-      //   },
-      //   {
-      //     encodeValuesOnly: true
-      //   }
-      // );
-      // get request
-      // const Response= await axios.get(
-      //   `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
-      // );
-      // console.log(Response.data.data);
-      // this.projects = Response.data.data;
-      // this.$store.commit('setFZEProjects', this.projects);
-      // console.log('Get FZE Projects Test:\n');
-      // console.log(this.$store.getters.getFZEProjects);
+  // mounted () {
+  //   try {
+  //     // const qs = require('qs');
+  //     // const query = qs.stringify(
+  //     //   {
+  //     //     populate: {
+  //     //       Image: {
+  //     //         populate: '*'
+  //     //       }
+  //     //     }
+  //     //   },
+  //     //   {
+  //     //     encodeValuesOnly: true
+  //     //   }
+  //     // );
+  //     // get request
+  //     // const Response= await axios.get(
+  //     //   `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
+  //     // );
+  //     // console.log(Response.data.data);
+  //     // this.projects = Response.data.data;
+  //     // this.$store.commit('setFZEProjects', this.projects);
+  //     // console.log('Get FZE Projects Test:\n');
+  //     // console.log(this.$store.getters.getFZEProjects);
 
-    } catch (error) {
-      this.error = error;
-    }
-  }
+  //   } catch (error) {
+  //     this.error = error;
+  //   }
+  // }
 }
 </script>

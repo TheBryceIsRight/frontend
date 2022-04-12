@@ -412,7 +412,6 @@ export default {
 
   data: () => ({
 
-    project: [],
     images: [],
     error: null,
     items: [
@@ -526,6 +525,9 @@ export default {
     ],
 
   }),
+  computed: {
+    project: function() { return this.$store.getters.getDEVProjects },
+},
   mounted () {
     try {
       // get request
@@ -534,7 +536,7 @@ export default {
       // );
       // console.log("Response Data")
       // console.log(Response.data.data);
-      this.project = this.$store.getters.getDEVProjects;
+      this.project = this.projects;
       // this.$store.commit('setDEVProjects', this.project);
       // console.log('Get DEV Projects Test:');
       // console.log(this.$store.getters.getDEVProjects);
