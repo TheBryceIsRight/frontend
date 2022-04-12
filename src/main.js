@@ -9,6 +9,8 @@ import { aliases, mdi } from 'vuetify/lib/iconsets/mdi-svg';
 import router from './router/index';
 import mixpanel from 'mixpanel-browser';
 import titleMixin from './mixins/titleMixin';
+import VueSocialSharing from 'vue-social-sharing'
+
 
 
 const app = createApp(App).use(router);
@@ -83,5 +85,7 @@ app.use(store);
 app.use(vuetify);
 app.use(mixpanel);
 app.mixin(titleMixin);
+app.use(VueSocialSharing);
+
 
 app.mount('#app');
