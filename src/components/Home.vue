@@ -165,9 +165,7 @@
 </template>
 
 <script>
-// import axios from 'axios'
-// import mixpanel from 'mixpanel-browser';
-// mixpanel.track_links("#mixpanel-tracked", "Link clicked");
+
 export default {
   name: 'HelloWorld',
   title: 'Portfolio',
@@ -181,38 +179,6 @@ export default {
   }),
   computed: {
     projects: function() { return this.$store.getters.getProjects },
-  },
-  // async created () {
-  //   try {
-  //     // const qs = require('qs');
-  //     // const query = qs.stringify(
-  //     //   {
-  //     //     populate: {
-  //     //       Image: {
-  //     //         populate: '*'
-  //     //       }
-  //     //     }
-  //     //   },
-  //     //   {
-  //     //     encodeValuesOnly: true
-  //     //   }
-  //     // );
-  //     // get request
-  //     // const Response= await axios.get(
-  //     //   `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
-  //     // );
-  //     // console.log(Response.data.data);
-  //     // console.log("API Endpoint");
-  //     // console.log(process.env.VUE_APP_API_ENDPOINT);
-  //     this.projects = this.$store.getters.getProjects;
-  //     // this.$store.commit('setProjects', this.projects);
-  //     // store.projects = Response.data.data;
-  //     // console.log('Get Projects Test:\n');
-  //     // console.log(this.$store.getters.getProjects);
-
-  //   } catch (error) {
-  //     this.error = error;
-  //   }
-  // }
+  }
 }
 </script>

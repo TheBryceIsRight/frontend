@@ -536,12 +536,7 @@ export default {
       // );
       // console.log("Response Data")
       // console.log(Response.data.data);
-      this.project = this.projects;
-      // this.$store.commit('setDEVProjects', this.project);
-      // console.log('Get DEV Projects Test:');
-      // console.log(this.$store.getters.getDEVProjects);
-      // console.log("Personas")
-      // console.log(Response.data.data.attributes.Persona);
+      // this.project = this.projects;
       this.items = [
       {
         src: this.project.Persona.Persona1URL,
