@@ -10,7 +10,7 @@ import NotFound from "../components/NotFound.vue";
 
 const routes = [
   {
-    path: '/*',
+    path: '/:catchAll(.*)',
     redirect: '/404'
   },
   {
