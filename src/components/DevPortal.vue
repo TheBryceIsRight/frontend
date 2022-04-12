@@ -400,7 +400,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 // import mixpanel from 'mixpanel-browser';
 // mixpanel.track('Dev Portal', {
 //   'source': "Dev Portal page",
@@ -526,31 +526,18 @@ export default {
     ],
 
   }),
-  async mounted () {
+  mounted () {
     try {
-      // const qs = require('qs');
-      // const query = qs.stringify(
-      //   {
-      //     populate: {
-      //       Image: {
-      //         populate: '*'
-      //       }
-      //     }
-      //   },
-      //   {
-      //     encodeValuesOnly: true
-      //   }
-      // );
       // get request
-      const Response= await axios.get(
-        `${process.env.VUE_APP_API_ENDPOINT}api/articles/1?populate=*`
-      );
+      // const Response= await axios.get(
+      //   `${process.env.VUE_APP_API_ENDPOINT}api/articles/1?populate=*`
+      // );
       // console.log("Response Data")
       // console.log(Response.data.data);
-      this.project = Response.data.data.attributes;
-      this.$store.commit('setDEVProjects', this.projects);
-      console.log('Get DEV Projects Test:\n');
-      console.log(this.$store.getters.getDEVProjects);
+      this.project = this.$store.getters.getDEVProjects;
+      // this.$store.commit('setDEVProjects', this.project);
+      // console.log('Get DEV Projects Test:');
+      // console.log(this.$store.getters.getDEVProjects);
       // console.log("Personas")
       // console.log(Response.data.data.attributes.Persona);
       this.items = [

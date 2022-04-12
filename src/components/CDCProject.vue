@@ -293,7 +293,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 // import mixpanel from 'mixpanel-browser';
 // mixpanel.track('Air Toxcity', {
 //   'source': "Air Toxcity page",
@@ -327,14 +327,14 @@ export default {
       //   }
       // );
       // get request
-      const Response= await axios.get(
-        `${process.env.VUE_APP_API_ENDPOINT}api/articles/3?populate=*`
-      );
+      // const Response= await axios.get(
+      //   `${process.env.VUE_APP_API_ENDPOINT}api/articles/3?populate=*`
+      // );
       // console.log(Response.data.data);
-      this.project = Response.data.data.attributes;
-      this.$store.commit('setCDCProjects', Response.data.data);
-      console.log('Get CDC Projects Test:\n');
-      console.log(this.$store.getters.getCDCProjects);
+      this.project = this.$store.getters.getCDCProjects;
+      // this.$store.commit('setCDCProjects', Response.data.data);
+      // console.log('Get CDC Projects Test:\n');
+      // console.log(this.$store.getters.getCDCProjects);
       this.hifi = this.project.HighFi.hifi01URL;
 
 

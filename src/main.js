@@ -43,37 +43,37 @@ const store = createStore({
     increment (state) {
       state.count++
     },
-    setProjects (projects) {
-      this.projects = projects
+    setProjects (state, projects) {
+      state.projects = projects
     },
-    setFZEProjects (functionize_article) {
-      this.functionize_article = functionize_article
+    setFZEProjects (state, functionize_article) {
+      state.functionize_article = functionize_article
     },
-    setDEVProjects (devportal_article) {
-      this.devportal_article = devportal_article
+    setDEVProjects (state, devportal_article ) {
+      state.devportal_article = devportal_article
     },
-    setCDCProjects (cdc_article) {
-      this.cdc_article = cdc_article
+    setCDCProjects (state, cdc_article) {
+      state.cdc_article = cdc_article
     },
-    setOUTProjects (outages_article) {
-      this.outages_article = outages_article
+    setOUTProjects (state, outages_article) {
+      state.outages_article = outages_article
     },
   },
   getters: {
-    getProjects (projects) {
-      return projects
+    getProjects (state) {
+      return state.projects
     },
-    getFZEProjects (functionize_article) {
-      return functionize_article
+    getFZEProjects (state) {
+      return state.functionize_article
     },
-    getDEVProjects (devportal_article) {
-      return devportal_article
+    getDEVProjects (state) {
+      return state.devportal_article
     },
-    getCDCProjects (cdc_article) {
-      return cdc_article
+    getCDCProjects (state) {
+      return state.cdc_article
     },
-    getOUTProjects (outages_article) {
-      return outages_article
+    getOUTProjects (state) {
+      return state.outages_article
     },
     
 }

@@ -116,7 +116,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 // import mixpanel from 'mixpanel-browser';
 // mixpanel.track('Functionize', {
 //   'source': "Functionize page",
@@ -134,30 +134,30 @@ export default {
     error: null,
 
   }),
-  async mounted () {
+  mounted () {
     try {
-      const qs = require('qs');
-      const query = qs.stringify(
-        {
-          populate: {
-            Image: {
-              populate: '*'
-            }
-          }
-        },
-        {
-          encodeValuesOnly: true
-        }
-      );
+      // const qs = require('qs');
+      // const query = qs.stringify(
+      //   {
+      //     populate: {
+      //       Image: {
+      //         populate: '*'
+      //       }
+      //     }
+      //   },
+      //   {
+      //     encodeValuesOnly: true
+      //   }
+      // );
       // get request
-      const Response= await axios.get(
-        `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
-      );
-      console.log(Response.data.data);
-      this.projects = Response.data.data;
-      this.$store.commit('setFZEProjects', this.projects);
-      console.log('Get FZE Projects Test:\n');
-      console.log(this.$store.getters.getFZEProjects);
+      // const Response= await axios.get(
+      //   `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
+      // );
+      // console.log(Response.data.data);
+      // this.projects = Response.data.data;
+      // this.$store.commit('setFZEProjects', this.projects);
+      // console.log('Get FZE Projects Test:\n');
+      // console.log(this.$store.getters.getFZEProjects);
 
     } catch (error) {
       this.error = error;

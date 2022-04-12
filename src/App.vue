@@ -87,6 +87,7 @@
 
 <script>
 import mixpanel from 'mixpanel-browser';
+import axios from 'axios'
 mixpanel.init('dddefa167e8bde51379318d3fd2726cc', {debug: true, ignore_dnt: true}); 
 mixpanel.track('Init', {
   'source': "Bryce's portfolio",
@@ -108,16 +109,47 @@ export default {
       ],
     }
   },
-  beforeMount(){
+  async mounted(){
     // get request
-    const Response= await axios.get(
+    const qs = require('qs');
+      const query = qs.stringify(
+        {
+          populate: {
+            Image: {
+              populate: '*'
+            }
+          }
+        },
+        {
+          encodeValuesOnly: true
+        }
+      );
+    const Response1= await axios.get(
       `${process.env.VUE_APP_API_ENDPOINT}api/projects/?${query}`
     );
+    const Response2= await axios.get(
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/1?populate=*`
+      );
+    const Response3= await axios.get(
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/2?populate=*`
+      );
+    const Response4= await axios.get(
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/3?populate=*`
+      );
+    
+    this.$store.commit('setProjects', Response1.data.data);
+    this.$store.commit('setDEVProjects', Response2.data.data.attributes);
+    this.$store.commit('setOUTProjects', Response3.data.data.attributes);
+    this.$store.commit('setCDCProjects', Response4.data.data.attributes);
+    // console.log('APP TEST');
+    // console.log('Get DEV Projects Test in APP:\n');
+    // console.log(this.$store.getters.getDEVProjects);
+
     // console.log(Response.data.data);
     // console.log("API Endpoint");
     // console.log(process.env.VUE_APP_API_ENDPOINT);
 
-    this.projects = Response.data.data
+    this.projects = Response1.data.data
  },
 }
 </script>
