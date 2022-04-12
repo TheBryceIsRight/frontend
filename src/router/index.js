@@ -5,11 +5,13 @@ import DevPortal from "../components/DevPortal.vue";
 import SystemOutages from "../components/SystemOutages.vue";
 import CDCProject from "../components/CDCProject.vue";
 import ContactMe from "../components/ContactMe.vue";
+import NotFound from "../components/NotFound.vue";
+
 
 const routes = [
   {
     path: '/*',
-    redirect: { name: 'Home' }
+    redirect: '/404'
   },
   {
     path: "/",
@@ -43,6 +45,24 @@ const routes = [
         {
           property: 'og:description',
           content: 'The functionize page of my portfolio.'
+        }
+      ]
+    },
+  },
+  {
+    path: "/404",
+    name: "404PageNotFound",
+    component: NotFound,
+    meta: {
+      title: 'Page Not Found',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'This page could not be found.'
+        },
+        {
+          property: 'og:description',
+          content: 'This page could not be found.'
         }
       ]
     },
