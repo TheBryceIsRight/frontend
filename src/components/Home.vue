@@ -27,7 +27,7 @@
     <v-container fluid>
       <v-row dense>
         <v-col
-          v-for="project in projects" :key="project.id"
+          v-for="project in projects" :key="project.attributes.Order"
           :cols="project.attributes.flex"
         > 
           <router-link :to="project.attributes.route" style="text-decoration: none; color: inherit;">
