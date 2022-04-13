@@ -187,7 +187,7 @@
         <v-carousel
           height="600"
           hide-delimiter-background
-          show-arrows-on-hover
+          show-arrows
           cycle
         >
           <v-carousel-item
@@ -301,7 +301,7 @@
         <v-carousel
           height="600"
           hide-delimiter-background
-          show-arrows-on-hover
+          show-arrows
           cycle
         >
           <v-carousel-item
@@ -319,7 +319,7 @@
         <v-carousel
           height="600"
           hide-delimiter-background
-          show-arrows-on-hover
+          show-arrows
           cycle
         >
           <v-carousel-item
@@ -337,7 +337,7 @@
         <v-carousel
           height="600"
           hide-delimiter-background
-          show-arrows-on-hover
+          show-arrows
           cycle
         >
           <v-carousel-item

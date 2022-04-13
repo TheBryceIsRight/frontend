@@ -5,7 +5,6 @@ import { createStore } from 'vuex'
 import App from './App.vue';
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
-import { aliases, mdi } from 'vuetify/lib/iconsets/mdi-svg';
 import router from './router/index';
 import mixpanel from 'mixpanel-browser';
 import titleMixin from './mixins/titleMixin';
@@ -20,14 +19,9 @@ const vuetify = createVuetify(
   directives,
   {
     icons: {
-      defaultSet: 'mdi',
-      aliases,
-      sets: {
-        mdi,
-      },
+      iconfont: 'mdiSVG',
     },
-  }
-); // Replaces new Vuetify(...)
+  }); // Replaces new Vuetify(...)
 
 // Create a new store instance.
 const store = createStore({
