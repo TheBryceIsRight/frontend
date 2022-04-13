@@ -3,15 +3,10 @@
     <v-row class="text-center">
       <v-col cols="12">
         <!-- Undraw hero illustration -->
-                <h1 class="display-2 font-weight-bold mb-3">
+                <h1 class="display-2 font-weight-light mb-3">
           About Me page
         </h1>
 
-        <br/>
-        <p class="subheading font-weight-regular">
-        Pardon the mess, this page is under construction :)      
-        </p>
-        
         <!-- Undraw construction hero -->
 
         <!-- <svg width="100%" height="925" viewBox="0 0 1378 925" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -120,7 +115,19 @@
 
         </v-img>
         <br/>
-        <p class="display-1 mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">Photo Credit Georgia Tech Institute Communications</p>
+        <p class="display-1 mb-3 text-left text-xs-caption text-md-caption text-lg-caption">Photo Credit Georgia Tech Institute Communications</p>
+        <br/>
+        <v-img
+            src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649814809/ATL_fkik0q.png"
+            style = "border-radius: 4px"
+        >
+
+        </v-img>
+        <br/>
+        <br/>
+        <br/>
+
+        <p class="display-1 mb-3 text-center text-xs-subtitle-2 text-md-subtitle-1 text-lg-h5">I'm a UX Designer living in Atlanta, Georgia. When I'm not making the next feature in Figma, I'm riding my bike, reading the <b>Kingkiller Chronicles</b>, listening to Frank Ocean, and playing Hades by Supergiant Games.</p>
       </v-col>
     </v-row>
     

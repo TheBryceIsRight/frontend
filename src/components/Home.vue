@@ -9,7 +9,7 @@
         <br/>
         <br/>
         <h1 class="display-2 font-weight-light mb-3 text-xs-h3 text-md-h4 text-lg-h3">
-          Hi there! I'm Bryce
+          Hi! I'm Bryce
         </h1>
 
         <br/>
@@ -172,7 +172,7 @@
         <br/>
         <br/>
         <h2 class="headline font-weight-light mb-5 text-xs-h6 text-md-h5 text-lg-h4">
-          Made with ❤️ thanks to the Open Source Community
+          Made with ❤️ thanks to the open source community
         </h2>
         <v-btn href="https://strapi.io/" elevation="0" target="_blank" style="width:25%; height: 200px;">
         <v-img
