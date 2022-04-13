@@ -206,7 +206,7 @@
         </v-btn> 
         <v-btn href= "https://undraw.co/" elevation="0" target="_blank" style="width:25%; height: 200px;">
         <v-img
-                src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649801012/Undraw_kkfjtz.svg"
+                src= "https://res.cloudinary.com/bryce-portfolio/image/upload/v1649817094/Undraw_opumw5.svg"
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
