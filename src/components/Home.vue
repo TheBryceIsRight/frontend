@@ -15,7 +15,7 @@
         <br/>
         <br/> 
         <div class="text-center d-flex align-center justify-center">
-        <p style="width:180px" class="subheading font-weight-regular text-xs-body-2 text-md-body-1 text-lg-body-1">
+        <p style="width:130px" class="subheading font-weight-regular text-xs-body-2 text-md-body-1 text-lg-body-1">
           UX Designer at
         </p>
         <v-btn href="https://www.functionize.com/" target="_blank" elevation="0" height="100px">
