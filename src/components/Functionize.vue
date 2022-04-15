@@ -152,13 +152,13 @@
         <br/>
         <br/>
         <br/>
-        <p class="display-1 mb-3 text-xs-body-2 text-md-body-1 text-lg-h5">{{project.IntroDescription}}
+        <p class="display-1 mb-3 text-xs-body-1 text-md-body-1 text-lg-h5">{{project.IntroDescription}}
         </p>
         <br/>
-        <p class="display-1 mb-3 text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Description}}
+        <p class="display-1 mb-3 text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description}}
         </p>
         <br/>
-        <p class="display-1 mb-3 text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Description2}}
+        <p class="display-1 mb-3 text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description2}}
         </p>
         <br/>
         <br/>
@@ -174,7 +174,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
         </h3>
         <br/>
         <br/>
@@ -182,7 +182,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
         </h3>
         <br/>
         <br/>
@@ -190,7 +190,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
         </h3>
         <br/>
         <br/>
@@ -202,7 +202,7 @@
         <br/>
         <br/>
         <br/>
-        <p class="text-left display-1 mb-3 text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Description3}}
+        <p class="text-left display-1 mb-3 text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description3}}
         </p>
         <br/>
         <v-img
@@ -259,7 +259,7 @@
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Dark Mode
         </h1>
         <br/>
-        <p class="display-1 font-weight-light mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">Nicknamed Flow, this secondary product aimed to automatically track areas of test coverage and assess coverage gaps based on risk.</p>
+        <p class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">Nicknamed Flow, this secondary product aimed to automatically track areas of test coverage and assess coverage gaps based on risk.</p>
         <v-carousel
           height="600"
           hide-delimiter-background
@@ -300,7 +300,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Takeaway1Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway1Description}}
         </h3>
         <br/>
         <br/>
@@ -308,7 +308,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Takeaway2Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway2Description}}
         </h3>
         <br/>
         <br/>
@@ -316,7 +316,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-2 text-md-body-1 text-lg-h5">{{project.Takeaway3Description}}
+        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway3Description}}
         </h3>
         <br/>
         <br/>
