@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-container class="mx-4">
+    <v-container>
     <v-row class="text-center">
       
       <!-- Introduction -->
@@ -96,12 +96,7 @@
           </defs>
           </svg>
     </v-col>
-    <v-col cols="12">
-        <!-- Undraw hero illustration -->
-          
-
-      </v-col>
-            <v-col class="mb-8"  >
+            <v-col cols="12" >
         <br/>
         <h2 class="display-1 font-weight-light mb-3 text-xs-h6 text-md-h5 text-lg-h4">{{project.IntroHeadline}}
         </h2>
