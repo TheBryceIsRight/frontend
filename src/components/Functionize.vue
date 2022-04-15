@@ -150,6 +150,8 @@
         <h2 class="display-1 font-weight-light mb-3 text-xs-h5 text-md-h4 text-lg-h3">{{project.IntroHeadline}}
         </h2>
         <br/>
+        <br/>
+        <br/>
         <p class="display-1 mb-3 text-xs-body-2 text-md-body-1 text-lg-h5">{{project.IntroDescription}}
         </p>
         <br/>
