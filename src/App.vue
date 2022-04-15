@@ -71,7 +71,7 @@
             </svg>
           </v-btn>
       </v-app-bar>
-    <v-main class="mx-4 px-5">
+    <v-main class="mx-4">
       <v-container>
       <router-view style="max-width:1200px"/>
       </v-container>
