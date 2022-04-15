@@ -6,10 +6,9 @@ import App from './App.vue';
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
 import router from './router/index';
+// import VueAnalytics from 'vue-analytics';
 import mixpanel from 'mixpanel-browser';
 import titleMixin from './mixins/titleMixin';
-import VueSocialSharing from 'vue-social-sharing'
-
 
 
 const app = createApp(App).use(router);
@@ -74,12 +73,15 @@ const store = createStore({
     
 }
 })
-
+// app.use(VueAnalytics, {
+//   id: 'UA-159586413-1',
+//   router
+// });
 app.use(store);
 app.use(vuetify);
 app.use(mixpanel);
 app.mixin(titleMixin);
-app.use(VueSocialSharing);
+
 
 
 app.mount('#app');

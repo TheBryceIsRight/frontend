@@ -121,11 +121,15 @@ export default {
     const Response4= await axios.get(
         `${process.env.VUE_APP_API_ENDPOINT}api/articles/3?populate=*`
       );
+    const Response5= await axios.get(
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/4?populate=*`
+      );
     
     this.$store.commit('setProjects', Response1.data.data);
     this.$store.commit('setDEVProjects', Response2.data.data.attributes);
     this.$store.commit('setOUTProjects', Response3.data.data.attributes);
     this.$store.commit('setCDCProjects', Response4.data.data.attributes);
+    this.$store.commit('setFZEProjects', Response5.data.data.attributes);
  },
 }
 </script>

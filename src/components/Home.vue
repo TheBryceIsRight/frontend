@@ -180,7 +180,7 @@
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
-                width="100px"
+                min-width="80px"
               >
         </v-img>
         </v-btn>
@@ -190,7 +190,7 @@
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
-                width="100px"
+                min-width="80px"
               >
         </v-img>
          </v-btn>
@@ -200,7 +200,7 @@
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
-                width="100px"
+                min-width="80px"
               >
         </v-img>
         </v-btn> 
@@ -210,13 +210,17 @@
                 class="white--text align-end"
                 cover
                 style="border-radius: 4px"
-                width="100px"
+                min-width="80px"
               >
         </v-img>
         </v-btn>
       </v-col>
     </v-row>
-    
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <p class='caption text-center'>© {{currentDate()}} · Bryce Watson · All rights reserved</p>
   </v-container>
 </template>
 
@@ -236,16 +240,13 @@ export default {
   }),
   computed: {
     projects: function() { return this.$store.getters.getProjects },
-    height () {
-        switch (this.$vuetify.breakpoint.name) {
-          case 'xs': return 220
-          case 'sm': return 400
-          case 'md': return 500
-          case 'lg': return 600
-          case 'xl': return 800
-        }
-        return 0
-      },
+  },
+  methods: {
+    currentDate() {
+      const current = new Date();
+      const date = `${current.getFullYear()}`;
+      return date;
+    }
   }
 }
 </script>
