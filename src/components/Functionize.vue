@@ -297,7 +297,7 @@
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Recent UX Release Video
         </h1>
         <br/>
-        <h3 class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">The recent 5.1 Release was the first step in the overhaul of the front end, and the first time many of my updates went live. Most of the changes were aimed at the core area of the product, the test detail page. This video was made with Visual Effects by Andrew Gassanoff and Voiceover by Judy Bossi.
+        <h3 class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">The recent 5.1 release was the first step in the overhaul of the front end, and the first time many of my updates went live. Most of the changes were aimed at the core area of the product, the test detail page. This video was made with Visual Effects by Andrew Gassanoff and voiceover by Judy Bossi.
         </h3>
         <br/>
         <br/>
