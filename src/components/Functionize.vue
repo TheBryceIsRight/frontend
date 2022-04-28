@@ -1,6 +1,13 @@
 <template>
   <v-container>
     <v-row class="text-center">
+      <v-col class="mb-8"  >
+        <br/>
+        <h1 class="display-1 font-weight-light mb-3 text-xs-h4 text-md-h3 text-lg-h2">{{project.Title}}
+        </h1>
+        <br/>
+        <br/>
+      </v-col>
       <v-col cols="12">
             <v-card  style="max-width:320px; height:330px" color="#001724" variant="outlined" >
           <v-list-item two-line>

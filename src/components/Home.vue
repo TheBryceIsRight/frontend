@@ -11,7 +11,6 @@
         <h1 class="display-2 font-weight-light mb-3 text-xs-h3 text-md-h4 text-lg-h3">
           Hi! I'm Bryce
         </h1>
-
         <br/>
         <br/> 
         <div class="text-center d-flex align-center justify-center">
@@ -43,7 +42,7 @@
         </svg>
         </v-btn>
         </div>
-                <div class="text-center d-flex align-center justify-center">
+        <div class="text-center d-flex align-center justify-center">
 
         <p style="width:180px" class="subheading font-weight-regular text-xs-body-2 text-md-body-1 text-lg-body-1">
           Undergrad in CS from
@@ -76,11 +75,14 @@
       <v-col
         class="mb-5"
         cols="12"
-      >
+      > 
+        <Skeleton>
         <h2 class="headline font-weight-medium mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           My projects
         </h2>
+        </Skeleton>
         <br/>
+
         <br/>
     <!-- Projects -->
     <v-container fluid>
@@ -235,11 +237,16 @@ export default {
     blogs: [],
     images: [],
     error: null,
-    
+    loading: false,
 
   }),
   computed: {
     projects: function() { return this.$store.getters.getProjects },
+  },
+  watch: {
+  '$store.getters.getProjects': function() {
+    console.log(this.$store.state.drawer)
+  }
   },
   methods: {
     currentDate() {
