@@ -76,16 +76,21 @@
         class="mb-5"
         cols="12"
       > 
-        <Skeleton>
         <h2 class="headline font-weight-medium mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           My projects
         </h2>
-        </Skeleton>
         <br/>
-
+        <Suspense>
+          <template #default>
+            <ProjectCard />
+          </template>
+          <template #fallback>
+            <ProjectCardSkeleton />
+          </template>
+        </Suspense>
         <br/>
     <!-- Projects -->
-    <v-container fluid>
+    <!-- <v-container fluid>
       <v-row dense>
         <v-col
           v-for="project in projects" :key="project.attributes.Order"
@@ -109,7 +114,7 @@
           </router-link>
         </v-col>
       </v-row>
-    </v-container>
+    </v-container> -->
       </v-col>
       <v-col
         class="mb-5"
@@ -227,6 +232,8 @@
 </template>
 
 <script>
+import ProjectCard from './ProjectCard.vue'
+import ProjectCardSkeleton from './ProjectCardSkeleton.vue'
 
 export default {
   name: 'HelloWorld',
@@ -240,6 +247,10 @@ export default {
     loading: false,
 
   }),
+  components: {
+    ProjectCard,
+    ProjectCardSkeleton
+  },
   computed: {
     projects: function() { return this.$store.getters.getProjects },
   },

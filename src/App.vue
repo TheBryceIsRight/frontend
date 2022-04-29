@@ -109,9 +109,9 @@ export default {
   },
   async mounted(){
     // get request
-    const Response1= await axios.get(
-      `${process.env.VUE_APP_API_ENDPOINT}api/projects/?populate=*`
-    );
+    // const Response1= await axios.get(
+    //   `${process.env.VUE_APP_API_ENDPOINT}api/projects/?populate=*`
+    // );
     const Response2= await axios.get(
         `${process.env.VUE_APP_API_ENDPOINT}api/articles/1?populate=*`
       );
@@ -125,7 +125,7 @@ export default {
         `${process.env.VUE_APP_API_ENDPOINT}api/articles/4?populate=*`
       );
     
-    this.$store.commit('setProjects', Response1.data.data);
+    // this.$store.commit('setProjects', Response1.data.data);
     this.$store.commit('setDEVProjects', Response2.data.data.attributes);
     this.$store.commit('setOUTProjects', Response3.data.data.attributes);
     this.$store.commit('setCDCProjects', Response4.data.data.attributes);
