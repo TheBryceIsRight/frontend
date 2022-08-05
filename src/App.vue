@@ -18,7 +18,7 @@
             </v-btn>
         </template>
 
-        <v-app-bar-title class="font-weight-light" style="color:#004D78">Bryce's Portfolio</v-app-bar-title>
+        <v-app-bar-title class="font-weight-regular" style="color:#004D78">Bryce's Portfolio</v-app-bar-title>
           <v-btn icon dark color='#004D78' aria-label="Three dot menu">
             <v-menu activator="parent" >
             <v-list elevation="1" style="border-radius: 4px">

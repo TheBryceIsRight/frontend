@@ -106,22 +106,22 @@
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Goals
         </h1>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals1Headline}}
+        <h2 class="display-1 font-weight-regular mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals1Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
         </h3>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals2Headline}}
+        <h2 class="display-1 font-weight-regular mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals2Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
         </h3>
         <br/>
-        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals3Headline}}
+        <h2 class="display-1 font-weight-regular mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals3Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
         </h3>
         <br/>
         <br/>
@@ -183,11 +183,11 @@
         </v-img>
         <br/>
         <br/>
-        <p class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description}}
+        <p class="display-1 mb-3 font-weight-regular text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description}}
         </p>
         <br/>
         <br/>
-        <p class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description2}}
+        <p class="display-1 mb-3 font-weight-regular text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description2}}
         </p>
         <br/>
         <br/>
@@ -313,19 +313,19 @@
         <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Takeaway1Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway1Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway1Description}}
         </h3>
         <br/>
         <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Takeaway2Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway2Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway2Description}}
         </h3>
         <br/>
         <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Takeaway3Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway3Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway3Description}}
         </h3>
         <br/>
         <br/>

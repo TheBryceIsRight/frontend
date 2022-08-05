@@ -59,7 +59,7 @@
         class="mb-5"
         cols="12"
       > 
-        <h2 class="headline font-weight-medium mb-5 text-xs-h6 text-md-h5 text-lg-h4">
+        <h2 class="headline font-weight-regular mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           My projects
         </h2>
         <!-- List of Projects -->
@@ -162,7 +162,7 @@
         <br/>
         <br/>
         <br/>
-        <h2 class="headline font-weight-light mb-5 text-xs-h6 text-md-h5 text-lg-h4">
+        <h2 class="headline font-weight-regular mb-5 text-xs-h6 text-md-h5 text-lg-h4">
           Made with ❤️ thanks to the open source community
         </h2>
         <!-- Strapi -->

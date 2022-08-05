@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Reset password with Strapi
+yarn strapi admin:reset-user-password --email="username@gmail.com" --password="SomePassword"

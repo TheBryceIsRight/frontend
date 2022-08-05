@@ -181,7 +181,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
         </h3>
         <br/>
         <br/>
@@ -189,7 +189,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
         </h3>
         <br/>
         <br/>
@@ -197,7 +197,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
         </h3>
         <br/>
         <br/>
@@ -328,7 +328,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway1Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway1Description}}
         </h3>
         <br/>
         <br/>
@@ -336,7 +336,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway2Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway2Description}}
         </h3>
         <br/>
         <br/>
@@ -344,7 +344,7 @@
         </h2>
         <br/>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway3Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway3Description}}
         </h3>
         <br/>
         <br/>
