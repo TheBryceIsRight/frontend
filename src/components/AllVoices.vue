@@ -308,7 +308,7 @@
 <script>
 export default {
   name: 'FZE',
-  title: 'Functionize',
+  title: 'AllVoices',
 
   data: () => ({
 
@@ -317,7 +317,6 @@ export default {
     images: [],
     error: null,
     hifi: [],
-    dark: [],
 
   }),
   computed: {
@@ -353,32 +352,6 @@ export default {
       },
       {
         src: this.project.HighFi.hifi07URL,
-      }
-    ];
-    this.dark = [
-      {
-        src: this.project.Dark.URL1,
-      },
-      {
-        src: this.project.Dark.URL2,
-      },
-      {
-        src: this.project.Dark.URL3,
-      },
-      {
-        src: this.project.Dark.URL4,
-      },
-      {
-        src: this.project.Dark.URL5,
-      },
-      {
-        src: this.project.Dark.URL6,
-      },
-      {
-        src: this.project.Dark.URL7,
-      },
-      {
-        src: this.project.Dark.URL8,
       }
     ];
 
