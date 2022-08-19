@@ -7,6 +7,8 @@ import CDCProject from "../components/CDCProject.vue";
 import ContactMe from "../components/ContactMe.vue";
 import NotFound from "../components/NotFound.vue";
 import AboutMe from "../components/AboutMe.vue";
+import AllVoices from "../components/AllVoices.vue";
+
 
 
 const routes = [
@@ -137,6 +139,25 @@ const routes = [
         {
           property: 'og:description',
           content: 'The contact me page of my portfolio.'
+        }
+      ]
+    },
+    
+  },
+  {
+    path: "/AllVoices",
+    name: "AllVoices",
+    component: AllVoices,
+    meta: {
+      title: 'AllVoices',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The AllVoices page of my portfolio.'
+        },
+        {
+          property: 'og:description',
+          content: 'The AllVoices page of my portfolio.'
         }
       ]
     },

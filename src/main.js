@@ -32,6 +32,7 @@ const store = createStore({
       devportal_article: [],
       cdc_article: [],
       outages_article: [],
+      allvoices_article: [],
     }
   },
   mutations: {
@@ -53,6 +54,9 @@ const store = createStore({
     setOUTProjects (state, outages_article) {
       state.outages_article = outages_article
     },
+    setAVProjects (state, allvoices_article) {
+      state.allvoices_article = allvoices_article
+    },
   },
   getters: {
     getProjects (state) {
@@ -69,6 +73,9 @@ const store = createStore({
     },
     getOUTProjects (state) {
       return state.outages_article
+    },
+    getAVProjects (state) {
+      return state.allvoices_article
     },
     
 }
