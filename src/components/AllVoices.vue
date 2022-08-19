@@ -217,7 +217,7 @@
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Marketing Animation
         </h1>
         <br/>
-        <h3 class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">I used Blender to make a 4K 60FPS animation for marketing
+        <h3 class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">I used Blender to make a 4K 60FPS animation for marketing to showcase our integrations.
         </h3>
         <br/>
         <br/>
