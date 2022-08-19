@@ -89,6 +89,11 @@ app.use(vuetify);
 app.use(mixpanel);
 app.mixin(titleMixin);
 
+if (process.env.NODE_ENV === 'production') {
+  // Handle SPA
+  app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
+}
+
 
 
 app.mount('#app');
