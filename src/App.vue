@@ -116,16 +116,16 @@ export default {
         `${process.env.VUE_APP_API_ENDPOINT}api/articles/1?populate=*`
       );
     const Response3= await axios.get(
-        `${process.env.VUE_APP_API_ENDPOINT}api/articles/2?populate=*`
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/3?populate=*`
       );
     const Response4= await axios.get(
-        `${process.env.VUE_APP_API_ENDPOINT}api/articles/3?populate=*`
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/5?populate=*`
       );
     const Response5= await axios.get(
         `${process.env.VUE_APP_API_ENDPOINT}api/articles/4?populate=*`
       );
     const Response6= await axios.get(
-        `${process.env.VUE_APP_API_ENDPOINT}api/articles/5?populate=*`
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/2?populate=*`
       );
     
     // this.$store.commit('setProjects', Response1.data.data);
