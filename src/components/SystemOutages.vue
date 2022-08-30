@@ -139,7 +139,6 @@
           height="600"
           hide-delimiter-background
           show-arrows
-          cycle
         >
           <v-carousel-item
             v-for="(item,i) in items"
@@ -204,7 +203,6 @@
           height="600"
           hide-delimiter-background
           show-arrows
-          cycle
         >
           <v-carousel-item
             v-for="(hifi,i) in hifi"
@@ -223,7 +221,6 @@
           height="600"
           hide-delimiter-background
           show-arrows
-          cycle
         >
           <v-carousel-item
             v-for="(dark,i) in dark"
