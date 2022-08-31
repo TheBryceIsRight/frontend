@@ -1,5 +1,9 @@
 <template>
     <div class="container">
+      <v-progress-linear
+      indeterminate
+      color="cyan"
+    ></v-progress-linear>
   <div class="profile-card">
     <div class="profile-info">
       <br/>
