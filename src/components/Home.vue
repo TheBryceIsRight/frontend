@@ -68,6 +68,9 @@
           <template #default>
             <ProjectCard />
           </template>
+          <template #pending>
+            <ProjectCardSkeleton />
+          </template>
           <template #fallback>
             <ProjectCardSkeleton />
           </template>
