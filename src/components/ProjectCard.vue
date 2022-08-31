@@ -33,7 +33,7 @@ export default {
     projects: function() { return this.$store.getters.getProjects },
   },
   watch: {
-  '$store.setters.setProjects': function() {
+  '$store.getters.getProjects': function() {
     }
   },
   async mounted(){
