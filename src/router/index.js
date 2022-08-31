@@ -71,7 +71,7 @@ const routes = [
     },
   },
   {
-    path: "/404",
+    path: "/*",
     name: "404PageNotFound",
     component: NotFound,
     meta: {
