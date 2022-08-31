@@ -1,7 +1,5 @@
 <template>
 
-  <v-container>
-
     <v-row class="text-center">
       <!-- Introduction -->
       <v-col class="mb-4">
@@ -14,7 +12,7 @@
         <br/>
         <br/> 
         <div class="text-center d-flex align-center justify-center">
-        <p style="width:150px" class="subheading font-weight-regular text-xs-body-2 text-md-body-1 text-lg-body-1">
+        <p style="width:160px" class="subheading font-weight-regular text-xs-body-2 text-md-body-1 text-lg-body-1">
           Product Designer at
         </p>
         <!-- Current Job Wordmark -->
@@ -76,32 +74,6 @@
           </template>
         </Suspense>
         <br/>
-    <!-- Projects -->
-    <!-- <v-container fluid>
-      <v-row dense>
-        <v-col
-          v-for="project in projects" :key="project.attributes.Order"
-          :cols="project.attributes.flex"
-        > 
-          <router-link :to="project.attributes.route" style="text-decoration: none; color: inherit;">
-            <v-card v-ripple>
-              <v-img
-                :src= "project.attributes.Image.data.attributes.caption"
-                class="white--text align-end"
-                gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-                height="400px"
-                :alt= "project.attributes.Image.data.attributes.alternativeText"
-                cover
-              >
-                <v-card-title class="text-white d-flex justify-start font-weight-light text-left" v-text="project.attributes.Name"></v-card-title>
-                <v-card-text class="text-white font-weight-bold d-flex justify-start text-left" v-text="project.attributes.Role"></v-card-text>
-                <v-card-text class="text-white text-left" v-text="project.attributes.Description"></v-card-text>
-              </v-img>
-            </v-card>
-          </router-link>
-        </v-col>
-      </v-row>
-    </v-container> -->
       </v-col>
       <v-col
         class="mb-5"
@@ -219,7 +191,6 @@
     <br/>
     <br/>
     <p class='caption text-center'>© {{currentDate()}} · Bryce Watson · All rights reserved</p>
-  </v-container>
 </template>
 
 <script>

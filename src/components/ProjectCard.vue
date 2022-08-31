@@ -1,6 +1,6 @@
 <template >
 <div class="container">
-  <v-col class="profile-card"
+  <v-col no-gutters class="profile-card"
     v-for="project in projects" :key="project.attributes.Order"
     :cols="project.attributes.flex" >
     <router-link :to="project.attributes.route" style="text-decoration: none; color: inherit;">
@@ -14,7 +14,7 @@
         cover
         >
         <div class="profile-info">
-        <v-card-title class="text-white d-flex justify-start font-weight-light text-left profile-title" v-text="project.attributes.Name"></v-card-title>
+        <v-card-title class="text-white d-flex justify-start font-weight-regular text-left profile-title" v-text="project.attributes.Name"></v-card-title>
         <v-card-text class="text-white font-weight-bold d-flex justify-start text-left profile-subtitle" v-text="project.attributes.Role"></v-card-text>
         <v-card-text class="text-white text-left profile-description" v-text="project.attributes.Description"></v-card-text>
         </div>
@@ -51,22 +51,25 @@ export default {
 <style>
 .profile-card {
   border-radius: 4px;
+  padding: 6px;
 }
 
 .container {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
+    margin: 0px;
 }
 
 .profile-info {
   width: 100%;
   margin: auto;
 }
+
 .profile-title{
   color: #004D78;
-  font-size: 1.5em;
-  display:flex;
+  font-size: 1.2em;
+  display: flex;
   align-content: flex-start;
   text-align: left;
 }
@@ -74,7 +77,7 @@ export default {
   margin: 10px 0;
   font-size: 1em;
   color: #004D78;
-  display:flex;
+  display: flex;
   align-content: flex-start;
   text-align: left;
 

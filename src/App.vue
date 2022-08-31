@@ -72,8 +72,8 @@
           </v-btn>
       </v-app-bar>
     <v-main class="mx-4">
-      <v-container>
-      <router-view style="max-width:1200px"/>
+      <v-container style="max-width:1200px" class="pa-0">
+      <router-view/>
       </v-container>
     </v-main>
   </v-defaults-provider>
