@@ -48,9 +48,6 @@ const store = createStore({
     setDEVProjects (state, devportal_article ) {
       state.devportal_article = devportal_article
     },
-    setCDCProjects (state, cdc_article) {
-      state.cdc_article = cdc_article
-    },
     setOUTProjects (state, outages_article) {
       state.outages_article = outages_article
     },
@@ -67,9 +64,6 @@ const store = createStore({
     },
     getDEVProjects (state) {
       return state.devportal_article
-    },
-    getCDCProjects (state) {
-      return state.cdc_article
     },
     getOUTProjects (state) {
       return state.outages_article

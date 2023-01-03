@@ -112,29 +112,25 @@ export default {
     // const Response1= await axios.get(
     //   `${process.env.VUE_APP_API_ENDPOINT}api/projects/?populate=*`
     // );
-    const Response2= await axios.get(
+    const Response1= await axios.get(
         `${process.env.VUE_APP_API_ENDPOINT}api/articles/1?populate=*`
+      );
+    const Response2= await axios.get(
+        `${process.env.VUE_APP_API_ENDPOINT}api/articles/2?populate=*`
       );
     const Response3= await axios.get(
         `${process.env.VUE_APP_API_ENDPOINT}api/articles/3?populate=*`
       );
+
     const Response4= await axios.get(
-        `${process.env.VUE_APP_API_ENDPOINT}api/articles/5?populate=*`
-      );
-    const Response5= await axios.get(
         `${process.env.VUE_APP_API_ENDPOINT}api/articles/4?populate=*`
       );
-    const Response6= await axios.get(
-        `${process.env.VUE_APP_API_ENDPOINT}api/articles/2?populate=*`
-      );
-      
-    
+
     // this.$store.commit('setProjects', Response1.data.data);
-    this.$store.commit('setDEVProjects', Response2.data.data.attributes);
+    this.$store.commit('setDEVProjects', Response1.data.data.attributes);
+    this.$store.commit('setAVProjects', Response2.data.data.attributes);
     this.$store.commit('setOUTProjects', Response3.data.data.attributes);
-    this.$store.commit('setCDCProjects', Response4.data.data.attributes);
-    this.$store.commit('setFZEProjects', Response5.data.data.attributes);
-    this.$store.commit('setAVProjects', Response6.data.data.attributes);
+    this.$store.commit('setFZEProjects', Response4.data.data.attributes);
  },
 }
 </script>
