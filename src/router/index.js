@@ -53,7 +53,7 @@ const routes = [
     }
   },
   {
-    path: "/fze",
+    path: "/functionize",
     name: "Functionize",
     component: Functionize,
     meta: {
@@ -89,7 +89,7 @@ const routes = [
     },
   },
   {
-    path: "/elavon",
+    path: "/devportal",
     name: "DevPortal",
     component: DevPortal,
     meta: {
@@ -107,7 +107,7 @@ const routes = [
     },
   },
   {
-    path: "/status",
+    path: "/systemoutages",
     name: "SystemOutages",
     component: SystemOutages,
     meta: {
