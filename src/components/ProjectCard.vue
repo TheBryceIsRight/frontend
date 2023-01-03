@@ -4,13 +4,13 @@
     v-for="project in projects" :key="project.attributes.Order"
     :cols="project.attributes.flex" >
     <router-link :to="project.attributes.route" style="text-decoration: none; color: inherit;">
-    <v-card v-ripple>
+    <v-card v-ripple :alt= "project.attributes.Alt" role="button">
         <v-img
         :src= "project.attributes.Image.data.attributes.caption"
+        :alt= "project.attributes.Alt"
         class="white--text align-end"
         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
         height="400px"
-        :alt= "project.attributes.Alt"
         cover
         >
         <div class="profile-info">
