@@ -195,7 +195,7 @@
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Messaging Templates
         </h1>
         <br/>
-        <p class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">A common customer request was to allow admins to create universal templates to standardize admin messaging. We launched MVP ahead of schedule on August 18, 2022.</p>
+        <p class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">A common customer request was to allow admins to create universal templates to standardize admin messaging. We launched MVP ahead of schedule on August 18, 2022.</p>
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" 
                 width="100%" 
                 height="900"
