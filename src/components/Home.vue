@@ -513,6 +513,8 @@
   <br />
   <br />
   <p class='caption text-center'>© {{currentDate()}} · Bryce Watson · All rights reserved</p>
+  <br/>
+  <br/>
 </template>
 
 <script>

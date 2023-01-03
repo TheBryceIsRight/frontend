@@ -32,6 +32,8 @@
         <br/>
 
         <p class="display-1 mb-3 text-center text-xs-subtitle-2 text-md-subtitle-1 text-lg-h5">I'm a UX Designer living in Atlanta, Georgia. I love helping create intuitive, efficient, accessible experiences in consumer software though UX Design and Full Stack development.</p>
+        <br/>
+        <br/>
       </v-col>
     </v-row>
     

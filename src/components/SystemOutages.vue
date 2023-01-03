@@ -268,6 +268,8 @@
         <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-xs-h4 text-md-h3 text-lg-h2">Thank you for reading!</h1>
+        <br/>
+        <br/>
       </v-col>
     </v-row>
     </v-container>
