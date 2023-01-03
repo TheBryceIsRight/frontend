@@ -84,7 +84,7 @@
     </v-col>
 
     <v-col class="mb-5" cols="12">
-      <svg width="792" height="497" viewBox="0 0 792 497" fill="none" xmlns="http://www.w3.org/2000/svg" alt="blue and gray illustrations of websites in different aspect ratios">
+      <svg width="80%" height="497" viewBox="0 0 792 497" fill="none" xmlns="http://www.w3.org/2000/svg" alt="blue and gray illustrations of websites in different aspect ratios">
         <g clip-path="url(#clip0_416_32931)">
           <path
             d="M73.1118 364.772C51.5763 356.938 32.8822 338.198 30.5107 315.405C51.417 328.968 76.4469 334.7 101.172 331.585C110.703 330.349 121.175 327.982 129.331 333.066C134.406 336.23 137.557 341.846 139.002 347.649C140.447 353.452 140.382 359.51 140.309 365.489L140.979 366.823C118.483 371.19 94.6472 372.606 73.1118 364.772Z"
