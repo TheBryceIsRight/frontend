@@ -7,6 +7,7 @@
     <v-card v-ripple :alt= "project.attributes.Alt" role="button">
         <v-img
         :src= "project.attributes.Image.data.attributes.caption"
+        :title= "project.attributes.Alt"
         :alt= "project.attributes.Alt"
         class="white--text align-end"
         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"

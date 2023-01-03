@@ -31,7 +31,7 @@
         <br/>
         <br/>
 
-        <p class="display-1 mb-3 text-center text-xs-subtitle-2 text-md-subtitle-1 text-lg-h5">I'm a UX Designer living in Atlanta, Georgia. When I'm not making the next feature in Figma, I'm riding my bike, reading the Kingkiller Chronicles, listening to Frank Ocean, and playing Hades by Supergiant Games.</p>
+        <p class="display-1 mb-3 text-center text-xs-subtitle-2 text-md-subtitle-1 text-lg-h5">I'm a UX Designer living in Atlanta, Georgia. I love helping create intuitive, efficient, accessible experiences in consumer software though UX Design and Full Stack development.</p>
       </v-col>
     </v-row>
     
