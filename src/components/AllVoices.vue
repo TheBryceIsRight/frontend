@@ -106,12 +106,6 @@
         <p class="display-1 mb-3 text-xs-body-1 text-md-body-1 text-lg-h5">{{project.IntroDescription}}
         </p>
         <br/>
-        <p class="display-1 mb-3 text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description}}
-        </p>
-        <br/>
-        <p class="display-1 mb-3 text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description2}}
-        </p>
-        <br/>
         <br/>
         <br/>
         <br/>

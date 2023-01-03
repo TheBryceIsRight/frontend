@@ -127,10 +127,10 @@ export default {
       );
 
     // this.$store.commit('setProjects', Response1.data.data);
-    this.$store.commit('setDEVProjects', Response1.data.data.attributes);
-    this.$store.commit('setAVProjects', Response2.data.data.attributes);
-    this.$store.commit('setOUTProjects', Response3.data.data.attributes);
-    this.$store.commit('setFZEProjects', Response4.data.data.attributes);
+    this.$store.commit('setDEVProjects', Response2.data.data.attributes);
+    this.$store.commit('setAVProjects', Response3.data.data.attributes);
+    this.$store.commit('setOUTProjects', Response4.data.data.attributes);
+    this.$store.commit('setFZEProjects', Response1.data.data.attributes);
  },
 }
 </script>

@@ -459,9 +459,6 @@ export default {
       {
         src: this.project.HighFi.hifi06URL,
       },
-      {
-        src: this.project.HighFi.hifi07URL,
-      },
     ];
     this.lofi = [
       {
@@ -501,9 +498,6 @@ export default {
       },
       {
         src: this.project.Dark.URL6,
-      },
-      {
-        src: this.project.Dark.URL7,
       },
     ];
 

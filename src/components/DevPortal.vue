@@ -215,10 +215,10 @@
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">More Research
         </h1>
         <br/>
-        <p class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description3}}
+        <p class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description}}
         </p>
         <br/>
-        <p class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description4}}
+        <p class="display-1 mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Description3}}
         </p>
         <br/>
         <br/>
