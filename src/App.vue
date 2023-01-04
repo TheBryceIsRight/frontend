@@ -9,10 +9,6 @@
         VTooltip: {}
       }"
     >
-
-
-
-
     <v-app-bar elevation="0">
         <template v-slot:prepend>
           <v-btn icon dark color='#004D78' aria-label="Home button" to="/" @click="scrollToTop" >
@@ -77,7 +73,7 @@
       </v-app-bar>
     <v-main class="mx-4">
 
-      <v-container style="max-width:1200px" class="pa-0">
+      <v-container style="max-width:1300px" class="pa-0">
       <router-view/>
       </v-container>
     </v-main>
@@ -103,11 +99,6 @@ export default {
     scrollToTop() {
       window.scrollTo(0,0);
     },
-    // eslint-disable-next-line no-unused-vars
-    onScroll(e) {
-      this.valueDeterminate = 50 /* or: e.target.documentElement.scrollTop */
-      console.log("scroll: ". window.pageYOffset)
-    }
   },
   data () {
     return {
@@ -120,7 +111,6 @@ export default {
         { title: 'About Me' },
         { title: 'Contact' }
       ],
-      valueDeterminate: 50,
     }
   },
   async mounted(){
@@ -149,10 +139,6 @@ export default {
     this.$store.commit('setOUTProjects', Response4.data.data.attributes);
     this.$store.commit('setFZEProjects', Response1.data.data.attributes);
  },
- beforeUnmount() {
-  window.removeEventListener("scroll", this.onScroll, true)
-},
-
 }
 </script>
 

@@ -84,7 +84,8 @@
     </v-col>
 
     <v-col class="mb-5" cols="12">
-      <svg width="80%" height="497" viewBox="0 0 792 497" fill="none" xmlns="http://www.w3.org/2000/svg" alt="blue and gray illustrations of websites in different aspect ratios">
+      <svg width="80%" height="497" viewBox="0 0 792 497" fill="none" xmlns="http://www.w3.org/2000/svg"
+        alt="blue and gray illustrations of websites in different aspect ratios">
         <g clip-path="url(#clip0_416_32931)">
           <path
             d="M73.1118 364.772C51.5763 356.938 32.8822 338.198 30.5107 315.405C51.417 328.968 76.4469 334.7 101.172 331.585C110.703 330.349 121.175 327.982 129.331 333.066C134.406 336.23 137.557 341.846 139.002 347.649C140.447 353.452 140.382 359.51 140.309 365.489L140.979 366.823C118.483 371.19 94.6472 372.606 73.1118 364.772Z"
@@ -479,42 +480,55 @@
       <h2 class="headline font-weight-regular mb-5 text-xs-h6 text-md-h5 text-lg-h4">
         Made with ❤️ thanks to the open source community
       </h2>
+
       <!-- Strapi -->
-      <v-btn href="https://strapi.io/" elevation="0" target="_blank" style="width:25%; height: 200px;"
-        aria-label="Strapi">
-        <v-img src="https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Strapi_bc60tt.svg"
-          class="white--text align-end" cover style="border-radius: 4px" min-width="80px">
-        </v-img>
-      </v-btn>
-      <!-- Vuetify -->
-      <v-btn href="https://next.vuetifyjs.com/en/" elevation="0" target="_blank" style="width:25%; height: 200px;"
-        aria-label="Vuetify">
-        <v-img src="https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Vuetify_i80bak.svg"
-          class="white--text align-end" cover style="border-radius: 4px" min-width="80px">
-        </v-img>
-      </v-btn>
-      <!-- Vue -->
-      <v-btn href="https://vuejs.org/" elevation="0" target="_blank" style="width:25%; height: 200px;" aria-label="Vue">
-        <v-img src="https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Vue_z52wp2.svg"
-          class="white--text align-end" cover style="border-radius: 4px" min-width="80px">
-        </v-img>
-      </v-btn>
-      <!-- Undraw -->
-      <v-btn href="https://undraw.co/" elevation="0" target="_blank" style="width:25%; height: 200px;"
-        aria-label="Undraw">
-        <v-img src="https://res.cloudinary.com/bryce-portfolio/image/upload/v1649817094/Undraw_opumw5.svg"
-          class="white--text align-end" cover style="border-radius: 4px" min-width="80px">
-        </v-img>
-      </v-btn>
+      <v-container>
+        <v-row>
+          <v-col>
+            <v-btn href="https://strapi.io/" elevation="0" target="_blank" style="height: 200px;" aria-label="Strapi">
+              <v-img src="https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Strapi_bc60tt.svg"
+                class="white--text align-end" cover style="border-radius: 4px" min-width="200px">
+              </v-img>
+            </v-btn>
+          </v-col>
+          <v-col>
+            <!-- Vuetify -->
+            <v-btn href="https://next.vuetifyjs.com/en/" elevation="0" target="_blank" style="height: 200px;"
+              aria-label="Vuetify">
+              <v-img src="https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Vuetify_i80bak.svg"
+                class="white--text align-end" cover style="border-radius: 4px" min-width="200px">
+              </v-img>
+            </v-btn>
+          </v-col>
+          <v-col>
+            <!-- Vue -->
+            <v-btn href="https://vuejs.org/" elevation="0" target="_blank" style="height: 200px;"
+              aria-label="Vue">
+              <v-img src="https://res.cloudinary.com/bryce-portfolio/image/upload/v1649433540/Vue_z52wp2.svg"
+                class="white--text align-end" cover style="border-radius: 4px" min-width="200px">
+              </v-img>
+            </v-btn>
+          </v-col>
+          <v-col>
+            <!-- Undraw -->
+            <v-btn href="https://undraw.co/" elevation="0" target="_blank" style="height: 200px;"
+              aria-label="Undraw">
+              <v-img src="https://res.cloudinary.com/bryce-portfolio/image/upload/v1649817094/Undraw_opumw5.svg"
+                class="white--text align-end" cover style="border-radius: 4px" min-width="200px">
+              </v-img>
+            </v-btn>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-col>
   </v-row>
   <br />
   <br />
   <br />
   <br />
-  <p class='caption text-center'>© {{currentDate()}} · Bryce Watson · All rights reserved</p>
-  <br/>
-  <br/>
+  <p class='caption text-center'>© {{ currentDate() }} · Bryce Watson · All rights reserved</p>
+  <br />
+  <br />
 </template>
 
 <script>
