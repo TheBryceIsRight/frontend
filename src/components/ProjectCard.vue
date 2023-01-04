@@ -3,7 +3,7 @@
   <v-col no-gutters class="profile-card"
     v-for="project in projects" :key="project.attributes.Order"
     :cols="project.attributes.flex" >
-    <router-link :to="project.attributes.route" style="text-decoration: none; color: inherit;">
+    <router-link @click="scrollToTop" :to="project.attributes.route" style="text-decoration: none; color: inherit;">
     <v-card v-ripple :alt= "project.attributes.Alt" role="button">
         <v-img
         :src= "project.attributes.Image.data.attributes.caption"
@@ -46,6 +46,11 @@ export default {
     this.$store.commit('setProjects', Response1.data.data);
     // console.log("Hello from Profile Card component");
  },
+ methods: { 
+  scrollToTop() {
+    window.scrollTo(0,0);
+  }
+}
 }
 </script>
 
