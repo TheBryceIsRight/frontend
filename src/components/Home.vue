@@ -84,7 +84,7 @@
     </v-col>
 
     <v-col class="mb-5" cols="12">
-      <svg width="80%" height="497" viewBox="0 0 792 497" fill="none" xmlns="http://www.w3.org/2000/svg"
+      <svg width="100%" height="497" viewBox="0 0 792 497" fill="none" xmlns="http://www.w3.org/2000/svg"
         alt="blue and gray illustrations of websites in different aspect ratios">
         <g clip-path="url(#clip0_416_32931)">
           <path
@@ -324,7 +324,7 @@
         My projects
       </h2>
       <!-- List of Projects -->
-      <br />
+      <v-spacer/>
       <Suspense>
         <template #default>
           <ProjectCard />

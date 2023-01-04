@@ -2,14 +2,11 @@
   <v-app>
     <v-main class="mx-4">
       <v-app-bar elevation="0">
-        <template v-slot:prepend>
-          <v-btn icon dark color='#004D78' aria-label="Home button" to="/" @click="scrollToTop">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10 20.5V14.5H14V20.5H19V12.5H22L12 3.5L2 12.5H5V20.5H10Z" fill="#004D78" />
-            </svg>
-          </v-btn>
-        </template>
-
+        <v-app-bar-nav-icon icon color="#004D78" aria-label="Home button" to="/" @click="scrollToTop">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 20.5V14.5H14V20.5H19V12.5H22L12 3.5L2 12.5H5V20.5H10Z" fill="#004D78" />
+          </svg>
+        </v-app-bar-nav-icon>
         <v-app-bar-title class="font-weight-regular" style="color:#004D78">Bryce's Portfolio</v-app-bar-title>
         <v-btn icon dark color='#004D78' aria-label="Three dot menu">
           <v-menu activator="parent">
