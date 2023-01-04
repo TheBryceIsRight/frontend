@@ -91,6 +91,7 @@
     </v-col>
             <v-col class="mb-8"  >
         <br/>
+        <!-- Introduction -->
         <br/>
         <br/>
         <h2 class="display-1 font-weight-light mb-3 text-xs-h5 text-md-h4 text-lg-h3">{{project.IntroHeadline}}
@@ -106,19 +107,19 @@
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Goals
         </h1>
         <br/>
-        <h2 class="display-1 font-weight-regular mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals1Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals1Headline}}
         </h2>
         <br/>
         <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
         </h3>
         <br/>
-        <h2 class="display-1 font-weight-regular mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals2Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals2Headline}}
         </h2>
         <br/>
         <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
         </h3>
         <br/>
-        <h2 class="display-1 font-weight-regular mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals3Headline}}
+        <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals3Headline}}
         </h2>
         <br/>
         <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
@@ -195,6 +196,8 @@
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Style Guide
         </h1>
+        <br/>
+        <br/>
         <v-img
                 :src= "project.StyleGuideLightURL"
                 class="white--text align-end"
@@ -212,6 +215,8 @@
         </v-img>
         <br/>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">More Research
         </h1>
         <br/>
@@ -222,8 +227,11 @@
         </p>
         <br/>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Refined Wireframes
         </h1>
+        <br/>
         <br/>
         <v-carousel
           height="600"
@@ -238,8 +246,11 @@
           ></v-carousel-item>
         </v-carousel>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">High Fidelity Designs
         </h1>
+        <br/>
         <br/>
         <v-carousel
           height="600"
@@ -255,8 +266,11 @@
           ></v-carousel-item>
         </v-carousel>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Animations
         </h1>
+        <br/>
         <br/>
         <v-carousel
           height="600"
@@ -272,8 +286,11 @@
           ></v-carousel-item>
         </v-carousel>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Dark Mode
         </h1>
+        <br/>
         <br/>
         <v-carousel
           height="600"
@@ -289,6 +306,8 @@
           ></v-carousel-item>
         </v-carousel>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Device Mockups
         </h1>
         <br/>
@@ -302,8 +321,14 @@
         </iframe>
         <br/>
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Takeaways
         </h1>
+        <br/>
+        <br/>
         <br/>
         <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Takeaway1Headline}}
         </h2>
@@ -322,6 +347,10 @@
         <br/>
         <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Takeaway3Description}}
         </h3>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-xs-h5 text-md-h4 text-lg-h3">Thank you for reading!</h1>

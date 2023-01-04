@@ -11,6 +11,7 @@ import mixpanel from 'mixpanel-browser';
 import titleMixin from './mixins/titleMixin';
 
 
+
 const app = createApp(App).use(router);
 
 const vuetify = createVuetify(
@@ -82,6 +83,7 @@ app.use(store);
 app.use(vuetify);
 app.use(mixpanel);
 app.mixin(titleMixin);
+app.config.globalProperties.window = window
 
 // if (process.env.NODE_ENV === 'production') {
 //   // Handle SPA

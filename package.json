@@ -20,7 +20,7 @@
     "vue-loading-skeleton": "^2.0.0-beta.1",
     "vue-router": "^4.0.14",
     "vue-social-sharing": "^4.0.0-alpha4",
-    "vuetify": "^3.0.0-beta.0",
+    "vuetify": "^3.0.6",
     "vuex": "^4.0.2",
     "webfontloader": "^1.0.0"
   },

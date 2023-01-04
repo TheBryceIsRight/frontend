@@ -114,20 +114,22 @@
         <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals1Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals1Description}}
         </h3>
         <br/>
         <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals2Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals2Description}}
         </h3>
         <br/>
         <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Goals3Headline}}
         </h2>
         <br/>
-        <h3 class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
+        <h3 class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">{{project.Goals3Description}}
         </h3>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>
@@ -150,6 +152,8 @@
         </v-carousel>
         <br/>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Information Architecture
         </h1>
         <br/>
@@ -167,10 +171,12 @@
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Style Guide
         </h1>
+        <br/>
+        <br/>
         <v-img
                 :src= "project.StyleGuideLightURL"
                 class="white--text align-end"
-                style="border-radius: 4px; width: 75%"
+                style="border-radius: 4px"
                 cover
               >
         </v-img>
@@ -184,6 +190,8 @@
         </v-img>
         <br/>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Refined Wireframes
         </h1>
         <br/>
@@ -195,6 +203,9 @@
                 cover
               >
         </v-img>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">High Fidelity Designs
         </h1>
@@ -212,6 +223,8 @@
             transition="fade-transition"
           ></v-carousel-item>
         </v-carousel>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Dark Mode
@@ -232,6 +245,8 @@
         </v-carousel>
         <br/>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Device Mockups
         </h1>
         <br/>
@@ -245,8 +260,14 @@
         </iframe>
         <br/>
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Takeaways
         </h1>
+        <br/>
+        <br/>
         <br/>
         <h2 class="display-1 font-weight-light mb-3 text-left text-xs-h6 text-md-h5 text-lg-h4">{{project.Takeaway1Headline}}
         </h2>
@@ -267,7 +288,11 @@
         </h3>
         <br/>
         <br/>
+        <br/>
+        <br/>
         <h1 class="display-1 font-weight-light mb-3 text-xs-h4 text-md-h3 text-lg-h2">Thank you for reading!</h1>
+        <br/>
+        <br/>
         <br/>
         <br/>
       </v-col>

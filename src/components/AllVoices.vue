@@ -216,7 +216,7 @@
         <br/>
         <iframe 
           width="100%" 
-          height="500" 
+          height="750" 
           src="https://www.youtube.com/embed/TmycswtSMgQ"
           title="YouTube video player" 
           frameborder="0" 

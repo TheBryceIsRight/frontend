@@ -9,9 +9,13 @@
         VTooltip: {}
       }"
     >
+
+
+
+
     <v-app-bar elevation="0">
         <template v-slot:prepend>
-          <v-btn icon dark color='#004D78' aria-label="Home button" to="/" >
+          <v-btn icon dark color='#004D78' aria-label="Home button" to="/" @click="scrollToTop" >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 20.5V14.5H14V20.5H19V12.5H22L12 3.5L2 12.5H5V20.5H10Z" fill="#004D78"/>
             </svg>
@@ -72,6 +76,7 @@
           </v-btn>
       </v-app-bar>
     <v-main class="mx-4">
+
       <v-container style="max-width:1200px" class="pa-0">
       <router-view/>
       </v-container>
@@ -94,6 +99,16 @@ mixpanel.track('Init', {
 
 export default {
   name: 'App',
+  methods: { 
+    scrollToTop() {
+      window.scrollTo(0,0);
+    },
+    // eslint-disable-next-line no-unused-vars
+    onScroll(e) {
+      this.valueDeterminate = 50 /* or: e.target.documentElement.scrollTop */
+      console.log("scroll: ". window.pageYOffset)
+    }
+  },
   data () {
     return {
       blogs: [],
@@ -105,9 +120,11 @@ export default {
         { title: 'About Me' },
         { title: 'Contact' }
       ],
+      valueDeterminate: 50,
     }
   },
   async mounted(){
+    window.addEventListener("scroll", this.onScroll, true)
     // get request
     // const Response1= await axios.get(
     //   `${process.env.VUE_APP_API_ENDPOINT}api/projects/?populate=*`
@@ -132,5 +149,16 @@ export default {
     this.$store.commit('setOUTProjects', Response4.data.data.attributes);
     this.$store.commit('setFZEProjects', Response1.data.data.attributes);
  },
+ beforeUnmount() {
+  window.removeEventListener("scroll", this.onScroll, true)
+},
+
 }
 </script>
+
+<style>
+#progress-el {
+  /* progress bar */
+  background-color: #003450 !important;
+}
+</style>

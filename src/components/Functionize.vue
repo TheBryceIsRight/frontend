@@ -265,7 +265,7 @@
         <h1 class="display-1 font-weight-light mb-3 text-left text-xs-h4 text-md-h3 text-lg-h2">Dark Mode
         </h1>
         <br/>
-        <p class="display-1 font-weight-light mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">Nicknamed Flow, this secondary product aimed to automatically track areas of test coverage and assess coverage gaps based on risk.</p>
+        <p class="display-1 font-weight-regular mb-3 text-left text-xs-body-1 text-md-body-1 text-lg-h5">Nicknamed Flow, this secondary product aimed to automatically track areas of test coverage and assess coverage gaps based on risk.</p>
         <v-carousel
           height="600"
           hide-delimiter-background
@@ -306,14 +306,20 @@
         </h3>
         <br/>
         <br/>
+        <br/>
+        <br/>
         <iframe 
           width="100%" 
-          height="500" 
+          height="800" 
           src="https://www.youtube.com/embed/86OaXBYycQg" 
           title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>
