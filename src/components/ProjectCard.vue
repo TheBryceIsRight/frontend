@@ -5,7 +5,7 @@
           >
           <router-link @click="scrollToTop" :to="project.attributes.route"
             style="text-decoration: none; color: inherit;">
-            <v-card v-ripple :alt="project.attributes.Alt" role="button">
+            <v-card v-ripple :alt="project.attributes.Alt" role="button" min-width="300px">
               <v-img :src="project.attributes.Image.data.attributes.caption" :title="project.attributes.Alt" min-width="250px"
                 :alt="project.attributes.Alt" class="white--text align-end"
                 gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)" height="400px"  cover>
