@@ -252,11 +252,11 @@
         <br/>
         <br/>
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" 
-                width="100%" 
-                height="900"
-                title="Figma prototype" 
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOT5w89thotQdKVT5D02guR%2FPortfolio%3Fkind%3D%26node-id%3D147%253A113%26page-id%3D142%253A8718%26scaling%3Dmin-zoom%26viewport%3D1892%252C186%252C1.0696194171905518" 
-                allowfullscreen>
+            width="100%" 
+            height="900"
+            title="Figma prototype" 
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F4Pydx6tuDUhxGqBaLvzKpO%2FPortfolio-(Copy)%3Fpage-id%3D142%253A8718%26node-id%3D147%253A113%26viewport%3D1516%252C242%252C0.3%26scaling%3Dscale-down%26starting-point-node-id%3D147%253A113" 
+            allowfullscreen>
         </iframe>
         <br/>
         <br/>
